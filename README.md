@@ -51,10 +51,11 @@ All included mods are used in accordance with CurseForge’s Terms of Service, w
 **Authors**:  
 - Coldcrow69  
 - Slowedpath  
-- aSnerf  
+- aSnerf
+- Sageisatthelimit
 
 **Play Testing**:  
-- Sageisatthelimit
+Currently searching for play testers!
 
 ## Contact
 
