@@ -37,8 +37,6 @@ Below are some mods you should be aware of when playing Faithful Frontiers. Thes
 
 | **Mod Name** | **Description** |
 |--------------|-----------------|
-| **Create** | Large scale industrial automation and contraption mod. The core of industry and tech in the pack. |
-| **Let's Do** | A collection of mods adding cosmetic and utility items including backpacks. |
 | **Accessories** | Find jewelry and wearable accessories through the world. Equip your backpacks and elytra in accessory slots. |
 | **Astikor Carts** | Load up your cart and hit the road. |
 | **Bartering Station** | Automate piglin trading. |
@@ -47,6 +45,7 @@ Below are some mods you should be aware of when playing Faithful Frontiers. Thes
 | **Bottle Your XP** | Use an empty bottle to extract your levels. |
 | **Carry On** | Crouch + right click with empty hands to pick up any entity or block (including spawners + villagers). |
 | **Chimes** | Hang them on your home to repel phantoms. |
+| **Create** | Large scale industrial automation and contraption mod. The core of industry and tech in the pack. |
 | **Cycle Paintings** | Cycle paintings by right clicking it. |
 | **Deeper and Darker** | Repair the sculk portal to access this dangerous new dimension. |
 | **Easy Shulker Boxes** | A variety of improvements to shulkers and how you can use them. |
@@ -66,6 +65,7 @@ Below are some mods you should be aware of when playing Faithful Frontiers. Thes
 | **Inventory Sorter** | Middle mouse to sort the hovered inventory. |
 | **Iron Chests** | Better chests. |
 | **Joy of Painting** | Paint on a canvas and hang it up. |
+| **Let's Do** | A collection of mods adding cosmetic and utility items including backpacks. |
 | **Light Overlay** | View spawning light levels with F7. |
 | **Macaws** | A group of mods adding new building blocks. |
 | **Meet Your Fight** | A collection of new bosses to encounter in the wild. |
