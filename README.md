@@ -99,5 +99,3 @@ Below is a list of some mods you should be aware of when playing Faithful Fronti
 - Sageisatthelimit
 
 ---
-
-# 🚀 Thanks for playing **Faithful Frontiers**!
