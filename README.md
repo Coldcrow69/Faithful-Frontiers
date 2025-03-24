@@ -1,4 +1,4 @@
-# 🐎 Faithful Frontiers
+# Faithful Frontiers
 
 ## 📄 Overview
 
