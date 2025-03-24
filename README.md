@@ -40,9 +40,7 @@ Welcome to the **Faithful Frontiers** modpack! This is a curated list of the mos
 Below is a list of some mods you should be aware of when playing Faithful Frontiers. These are only a small portion of the total mods included, but the player benefits from knowing about these in particular.
 
 - Create | Large scale industrial automation and contraption mod. The core of industry and tech in the pack.
-- 
 - Let's Do | A collection of mods adding cosmetic and utility items including backpacks.
-- 
 - Accessories | Find jewelry and wearable accessories through the world. Equip your backpacks and elytra in accessory slots.
 - Astikor Carts | Load up your cart and hit the road. 
 - Bartering Station | Automate piglin trading. 
