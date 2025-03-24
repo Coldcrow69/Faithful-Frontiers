@@ -33,7 +33,7 @@ OR
 
 # 📦 Faithful Frontiers Highlighted Mods
 
-Below is a list of some mods you should be aware of when playing Faithful Frontiers. These are only a small portion of the total mods included, but the player benefits from knowing about these in particular.
+Below are some mods you should be aware of when playing Faithful Frontiers. These are only a small portion of the total mods included, but the player benefits from knowing about these in particular.
 
 | **Mod Name** | **Description** |
 |--------------|-----------------|
