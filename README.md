@@ -31,11 +31,7 @@ OR
 
 ---
 
-# 📦 Faithful Frontiers Mod List
-
-Welcome to the **Faithful Frontiers** modpack! This is a curated list of the most impactful mods in the pack, along with source links and a brief description.
-
-## 🔨 Highlighted Mods
+# 📦 Faithful Frontiers Highlighted Mods
 
 Below is a list of some mods you should be aware of when playing Faithful Frontiers. These are only a small portion of the total mods included, but the player benefits from knowing about these in particular.
 
