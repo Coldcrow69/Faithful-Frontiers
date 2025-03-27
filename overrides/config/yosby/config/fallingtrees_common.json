@@ -44,10 +44,11 @@
         "whitelistedTags": [],
         "whitelist": [
           "minecraft:cactus",
+          "minecraft:bamboo"
         ],
         "blacklist": []
       },
-      "enabled": true,
+      "enabled": false,
       "requireTool": true,
       "allowedToolFilter": {
         "whitelistedTags": [
