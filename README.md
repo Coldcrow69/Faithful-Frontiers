@@ -15,7 +15,7 @@ Faithful Frontiers is a vibes-based faithful expansion to Minecraft, focused on 
 
 - **Minecraft Version**: 1.20.1  
 - **Mod Loader**: Forge  
-- **Recommended RAM**: 8GB
+- **Recommended RAM**: 10GB
 - **Java Version**: Java 17
 
 ## 🖥️ Installation
