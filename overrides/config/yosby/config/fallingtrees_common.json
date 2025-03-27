@@ -44,7 +44,6 @@
         "whitelistedTags": [],
         "whitelist": [
           "minecraft:cactus",
-          "minecraft:bamboo"
         ],
         "blacklist": []
       },
