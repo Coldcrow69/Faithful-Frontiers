@@ -41,11 +41,14 @@ Below are some mods you should be aware of when playing Faithful Frontiers. Thes
 
 ---
 
-## 🎥 Modpack Authors
+## 🎥 Modpack Author
 
-- Coldcrow69  
+- Coldcrow69
+
+## 🎥 Modpack Contributors  
 - Slowedpath  
 - aSnerf
 - Sageisatthelimit
+- Raine9399
 
 ---
