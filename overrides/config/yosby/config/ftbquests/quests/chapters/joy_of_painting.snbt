@@ -3,18 +3,88 @@
 	default_quest_shape: ""
 	filename: "joy_of_painting"
 	group: ""
+	icon: "xercapaint:item_easel"
 	id: "1F96633A5C110381"
 	order_index: 14
 	quest_links: [ ]
-	quests: [{
-		id: "7BE4807EF76B2349"
-		tasks: [{
-			id: "69010DB7ABB33094"
-			title: "placeholder"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "1048C1BC243C9C6A"
+			rewards: [
+				{
+					count: 8
+					id: "47AE19BBF65B91A3"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "52B8477550659A1A"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "220A71255B99DE84"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6477633C8DDE0ECD"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B6B03A593D7F7BD"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an easel."
+			tasks: [{
+				id: "19DFE3671304EDE1"
+				item: "xercapaint:item_easel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1048C1BC243C9C6A"]
+			id: "1EF4D0C15463E069"
+			rewards: [{
+				id: "54214A11EEC077A3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a canvas."
+			tasks: [{
+				id: "301C477135E5C1E2"
+				item: "xercapaint:item_canvas"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EF4D0C15463E069"]
+			id: "4E9E9B31FAF4BD94"
+			rewards: [{
+				id: "08DE1DFE91043DCB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Create a palette and pain your picture."
+			tasks: [{
+				id: "5DE870DCF0F927ED"
+				item: "xercapaint:item_palette"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+	]
 	title: "Joy of Painting"
 }

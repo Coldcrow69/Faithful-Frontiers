@@ -9,34 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "1ABF3FAF117FEC20"
-			rewards: [
-				{
-					id: "189BAB5B0E405590"
-					item: "sophisticatedbackpacks:backpack"
-					type: "item"
-				}
-				{
-					id: "1FE7EE81601FCFFF"
-					item: "sleeping_bags:red_sleeping_bag"
-					type: "item"
-				}
-			]
-			subtitle: "Explore a whole new world of opportunity before the burnout hits and you don't play for another year."
-			tasks: [{
-				icon: "minecraft:spyglass"
-				id: "268C7CD75E8EFF46"
-				observe_type: 0
-				timer: 0L
-				title: "Welcome to Faithful Frontiers"
-				to_observe: "minecraft:air"
-				type: "observation"
-			}]
-			x: 9.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1ABF3FAF117FEC20"]
+			dependencies: ["0F97F064285317A7"]
 			id: "0CCA9D3ECE874B58"
 			rewards: [{
 				count: 16
@@ -271,7 +244,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1ABF3FAF117FEC20"]
+			dependencies: ["0F97F064285317A7"]
 			id: "5BFCB215DBEF23BF"
 			rewards: [
 				{
@@ -346,7 +319,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["1ABF3FAF117FEC20"]
+			dependencies: ["0F97F064285317A7"]
 			id: "508D42343ED501A3"
 			rewards: [
 				{
@@ -611,6 +584,23 @@
 			}]
 			x: 23.5d
 			y: -1.5d
+		}
+		{
+			id: "0F97F064285317A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CA1BFC2AF146EAE"
+				table_id: 8952722406283378408L
+				type: "choice"
+			}]
+			subtitle: "Welcome to Faithful Frontiers. "
+			tasks: [{
+				id: "0A1AAD1C669BB62B"
+				title: "Faithful Frontiers"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 0.5d
 		}
 	]
 	title: "The Basics"

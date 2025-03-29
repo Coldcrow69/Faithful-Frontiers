@@ -3,18 +3,75 @@
 	default_quest_shape: ""
 	filename: "immersive_melodies"
 	group: ""
+	icon: {
+		Count: 1
+		id: "immersive_melodies:lute"
+		tag: { }
+	}
 	id: "17753E3737867566"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
-	quests: [{
-		id: "32CD5CF09830864E"
-		tasks: [{
-			id: "7F047629B92C5259"
-			title: "placeholder"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "3554643EC40E2628"
+			rewards: [{
+				id: "5170E257949B1214"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a piano."
+			tasks: [{
+				id: "5FC7E0D8851B1980"
+				item: {
+					Count: 1
+					id: "immersive_melodies:piano"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "0C7F964DE9F7F3EB"
+			rewards: [{
+				id: "778BBDAF0BCD4B7B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a lute."
+			tasks: [{
+				id: "076B972AF6A5FD23"
+				item: {
+					Count: 1
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "4433112DB88D439B"
+			rewards: [{
+				id: "5EF286F600780316"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a flute."
+			tasks: [{
+				id: "52EEB9DA0EA5CE1D"
+				item: {
+					Count: 1
+					id: "immersive_melodies:flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+	]
 	title: "Immersive Melodies"
 }

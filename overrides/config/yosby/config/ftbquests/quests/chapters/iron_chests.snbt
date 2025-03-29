@@ -3,18 +3,112 @@
 	default_quest_shape: ""
 	filename: "iron_chests"
 	group: ""
+	icon: "ironchest:iron_chest"
 	id: "66020FCB58BE5956"
-	order_index: 13
+	order_index: 12
 	quest_links: [ ]
-	quests: [{
-		id: "07703B1F42779E37"
-		tasks: [{
-			id: "2D45EDEAA6091155"
-			title: "placeholder"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "15AD2FA8FB219D12"
+			rewards: [{
+				id: "40DC3E406A4498DC"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "Craft a Chest"
+			tasks: [{
+				id: "76A0B827212899A8"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15AD2FA8FB219D12"]
+			id: "39696B485471EBA2"
+			rewards: [{
+				id: "1014383478B387B9"
+				item: "ironchest:copper_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "Upgrade your chest."
+			tasks: [{
+				id: "7DE3561877821862"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["39696B485471EBA2"]
+			id: "097762E99D2F870C"
+			rewards: [{
+				id: "5F54CA2BCDD7ED46"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "Upgrade your chest."
+			tasks: [{
+				id: "571AA9FBADB15DE9"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["097762E99D2F870C"]
+			id: "5939652963873F8C"
+			rewards: [{
+				id: "4E63B57050DFC3C9"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "Upgrade your chest."
+			tasks: [{
+				id: "13C3AC062840DB06"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5939652963873F8C"]
+			id: "76BE36C35A6259D1"
+			rewards: [{
+				id: "639AB1B2B1E6D129"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "Upgrade your chest."
+			tasks: [{
+				id: "1BA91FE38DD857D8"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["76BE36C35A6259D1"]
+			id: "04E10A0CE030266D"
+			rewards: [{
+				id: "1398AB72F35D84AF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Upgrade your chest."
+			tasks: [{
+				id: "27F59E1BC7044A2C"
+				item: "ironchest:crystal_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+	]
 	title: "Iron Chests"
 }

@@ -3,18 +3,62 @@
 	default_quest_shape: ""
 	filename: "storage_drawers"
 	group: ""
+	icon: "storagedrawers:controller"
 	id: "74337579E2B3CF36"
-	order_index: 18
+	order_index: 13
 	quest_links: [ ]
-	quests: [{
-		id: "44FEA9799AC8B284"
-		tasks: [{
-			id: "42F4523319C8A706"
-			title: "placeholder"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "24DAC46B4410B445"
+			rewards: [{
+				count: 64
+				id: "34CF465B52F74BB1"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "Create a drawer controller to simplify your storage."
+			tasks: [{
+				id: "7B080E2BA737E217"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24DAC46B4410B445"]
+			id: "1090947113E169D0"
+			rewards: [{
+				id: "663EB1846061D501"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Lock your drawers to set a designated item."
+			tasks: [{
+				id: "3F538BEAC991DE5F"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["24DAC46B4410B445"]
+			id: "3974306EE488C13F"
+			rewards: [{
+				id: "760D87F5E40E012D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Use to show the quantity of items in your drawers."
+			tasks: [{
+				id: "0CF7D8677611ADDE"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+	]
 	title: "Storage Drawers"
 }

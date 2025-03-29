@@ -168,7 +168,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4DE8F4518D2CA4BC"]
@@ -194,7 +194,7 @@
 				type: "dimension"
 			}]
 			x: 3.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["74EBA3C29B2591EE"]
@@ -222,7 +222,7 @@
 				value: 1L
 			}]
 			x: 5.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["05302DBC6D79BABF"]
@@ -232,34 +232,61 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Mowzie's Mobs are scatter around the world for you to slay, can you kill them all?"
+			subtitle: "Mowzie's Mobs are scattered around the world for you to slay, can you kill them all?"
 			tasks: [{
 				id: "3E487F6F505453A6"
 				title: "Mowzie's Mobs"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05302DBC6D79BABF"]
+			id: "12CCC594ABA68795"
+			rewards: [{
+				id: "399EBBE9F5DB23E6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Find incredible dungeons and mini-bosses scattered around the world to fight."
+			tasks: [{
+				id: "28CDC855E2298558"
+				title: "Stalwart Dugeons"
 				type: "checkmark"
 			}]
 			x: -1.5d
 			y: 0.0d
 		}
 		{
-			id: "12CCC594ABA68795"
+			dependencies: ["05302DBC6D79BABF"]
+			id: "08299D23CF3F197F"
+			subtitle: "If The Nether is Hell, this must surely be heaven."
 			tasks: [{
-				id: "28CDC855E2298558"
-				title: "Stalwart Dugeons"
+				id: "5D80C688D11A18C6"
+				title: "The Aether"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 1.5d
 		}
 		{
-			id: "08299D23CF3F197F"
-			tasks: [{
-				id: "5D80C688D11A18C6"
-				title: "The Aether"
-				type: "checkmark"
+			dependencies: ["08299D23CF3F197F"]
+			id: "42614B5928812CBC"
+			rewards: [{
+				id: "1F81734ABBE24CD0"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
-			x: 1.5d
-			y: 1.5d
+			subtitle: "Enter The Aether"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "075E181E38B48CE5"
+				title: "Enter The Aether"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 3.5d
 		}
 	]
 	title: "Beyond The End"

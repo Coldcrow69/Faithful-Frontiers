@@ -4,17 +4,161 @@
 	filename: "project_red"
 	group: ""
 	id: "0424F7A590D57BC1"
-	order_index: 16
+	order_index: 15
 	quest_links: [ ]
-	quests: [{
-		id: "1792CBDEF71DA299"
-		tasks: [{
-			id: "01F2201B8ACD1C1A"
-			title: "placeholder"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "1B3810C8F84858D7"
+			rewards: [{
+				count: 16
+				id: "2B1C8A737066D425"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			subtitle: "Mine or obtain some redstone dust."
+			tasks: [{
+				id: "7AE2F1911BBC26B9"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B3810C8F84858D7"]
+			id: "069E545C91AB82D9"
+			rewards: [
+				{
+					count: 8
+					id: "581E5CFD73C5C53B"
+					item: "minecraft:lever"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2911B804C354B5C7"
+					item: "minecraft:oak_button"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5960E45EB41486BF"
+					item: "minecraft:oak_pressure_plate"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a redstone torch."
+			tasks: [{
+				id: "4FA7850B7DA8ED1D"
+				item: "minecraft:redstone_torch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["069E545C91AB82D9"]
+			id: "4B324CD9B6E1E56C"
+			rewards: [{
+				id: "2EDB7E5D419CB6C6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a block of redstone."
+			tasks: [{
+				id: "305C24DFD2CEC91C"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["069E545C91AB82D9"]
+			id: "733B4F065EB63766"
+			rewards: [{
+				id: "4D71AAE138BB712C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a redstone repeater."
+			tasks: [{
+				id: "3FDAFA7817B2998D"
+				item: "minecraft:repeater"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["069E545C91AB82D9"]
+			id: "29DDC5B8BE316EE0"
+			rewards: [{
+				id: "64B16F0E52355496"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a redstone repeater."
+			tasks: [{
+				id: "74E7C8EAD69B88F7"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1B3810C8F84858D7"]
+			id: "70D497F507505248"
+			rewards: [{
+				count: 64
+				id: "7E718327145CC913"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00FF182F2BBD8B87"
+				item: "projectred_transmission:red_alloy_wire"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70D497F507505248"]
+			id: "022AFA28D5522BF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AF510C105A25262"
+				table_id: 6768958311133431536L
+				type: "choice"
+			}]
+			subtitle: "Craft a bundled cable."
+			tasks: [{
+				id: "0D05D41DD23D7F6A"
+				item: "projectred_transmission:neutral_bundled_wire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["70D497F507505248"]
+			id: "1F122A8120CCBB69"
+			rewards: [{
+				id: "55A82BAF991866C8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Create an electrotine generator."
+			tasks: [{
+				id: "03F4F07C8D33F84D"
+				item: "projectred_core:electrotine_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+	]
 	title: "Project Red"
 }

@@ -25,6 +25,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7BDF1452650AA605"]
 			id: "33EB10F6A750123D"
 			tasks: [{
 				id: "230E0499C5B561C8"
@@ -35,16 +36,20 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7BDF1452650AA605"]
 			id: "77B21C4B0ACB33D0"
+			subtitle: "Craft \"small\" ships like the cog and brig to traverse the oceans."
 			tasks: [{
 				id: "61707D11CDAB31B5"
 				title: "Sea Travel"
 				type: "checkmark"
 			}]
+			title: "Small Ships"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
+			dependencies: ["7BDF1452650AA605"]
 			id: "347C9CE43662DA5D"
 			tasks: [{
 				id: "408C34929E9FBEDD"
@@ -55,6 +60,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["7BDF1452650AA605"]
 			id: "558F322906A171CE"
 			tasks: [{
 				id: "0224F496F94FDACC"
@@ -63,6 +69,84 @@
 			}]
 			x: 0.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["347C9CE43662DA5D"]
+			id: "2A69CFB148070552"
+			rewards: [
+				{
+					id: "1609211C518A17A2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					exclude_from_claim_all: true
+					id: "701D6FB76757B866"
+					table_id: 8952722406283378408L
+					type: "random"
+				}
+			]
+			subtitle: "Craft a Saddle."
+			tasks: [{
+				id: "4ACE6718BD9BB59F"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A69CFB148070552"]
+			id: "7D34DE9C2D78EEF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "724CD7CC01336965"
+				table_id: 8952722406283378408L
+				type: "random"
+			}]
+			subtitle: "Craft a cart and traverse the world."
+			tasks: [{
+				id: "0EDE081F49A10432"
+				item: "astikorcarts:supply_cart"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["558F322906A171CE"]
+			id: "02917F1A0491C9E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62683311F44923F7"
+				table_id: 5320903358926637708L
+				type: "random"
+			}]
+			subtitle: "Craft or obtain a waystone."
+			tasks: [{
+				id: "0E40B1AD7603733D"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33EB10F6A750123D"]
+			id: "274F7E48B31207BE"
+			rewards: [{
+				id: "1BD49A9AB7589F9C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Craft a Plane."
+			tasks: [{
+				id: "5E274CB8484ABCB1"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 	]
 	title: "Travel"
