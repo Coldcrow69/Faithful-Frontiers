@@ -1,0 +1,14 @@
+{
+	icon: "create:large_cogwheel"
+	id: "647B127B988A277D"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 2, item: "create:andesite_alloy" }
+		{ count: 2, item: "create:cogwheel" }
+		{ count: 2, item: "create:large_cogwheel" }
+		{ item: "create:brass_ingot" }
+		{ item: "create:iron_sheet" }
+	]
+	title: "Create Loot"
+}
