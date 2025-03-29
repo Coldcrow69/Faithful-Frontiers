@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender_storage"
+	group: ""
+	icon: "enderstorage:ender_chest"
+	id: "0D5A23A99D30156C"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "52333713D0AFB4C4"
+			rewards: [{
+				id: "06395978FC490E29"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Basic inter-dimensional storage."
+			tasks: [{
+				id: "305E427AC0B28B80"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52333713D0AFB4C4"]
+			id: "29B3982F4DF027F3"
+			rewards: [{
+				id: "65ECED5F099D515F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Better inter-dimensional storage!"
+			tasks: [{
+				id: "64A6C0E690235E04"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52333713D0AFB4C4"]
+			id: "2877608CC4AF64D2"
+			rewards: [{
+				id: "2B80A8C17E7E20B4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Fluid inter-dimensional storage!"
+			tasks: [{
+				id: "4038AE72067C0035"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52333713D0AFB4C4"]
+			id: "68415B6827058E62"
+			rewards: [{
+				id: "357CB49776ED897C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Portable inter-dimensional storage!"
+			tasks: [{
+				id: "031980BDA979D8D6"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Ender Storage"
+}

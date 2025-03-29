@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "construction_wands"
+	group: ""
+	icon: {
+		Count: 1
+		id: "constructionwand:diamond_wand"
+		tag: {
+			Damage: 0
+			wand_options: { }
+		}
+	}
+	id: "7071C8C11DA388A6"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7D2EE7B2FBEAAE18"
+			rewards: [
+				{
+					id: "5C45A3B01F8804A2"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "0253746CE548A219"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Enhance your creativity with construction wands!"
+			tasks: [{
+				id: "6B5B5B67BABCD5CF"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D2EE7B2FBEAAE18"]
+			id: "18CED80B479600B5"
+			rewards: [
+				{
+					id: "3550DEF106D93D3B"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "4C6DF433708D5AB6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Enhance your creativity with construction wands!"
+			tasks: [{
+				id: "0829649822F9CE4C"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18CED80B479600B5"]
+			id: "71D1CDA024595B3B"
+			rewards: [
+				{
+					id: "642C5B76DA1197E4"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "3D3B146803B5E04B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Enhance your creativity with construction wands!"
+			tasks: [{
+				id: "110AE78043DE3B73"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71D1CDA024595B3B"]
+			id: "4B720FC414102066"
+			rewards: [{
+				id: "00477F9053E828D9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Combine with your wand for even more building options!"
+			tasks: [{
+				id: "3BF63771BF39865A"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71D1CDA024595B3B"]
+			id: "362F7E083CD3BAAD"
+			rewards: [{
+				id: "19724531F2D45A78"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Combine with your wand for even more building options!"
+			tasks: [{
+				id: "6A9FCFD29E8B3BC0"
+				item: "constructionwand:core_destruction"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "Construction Wands"
+}

@@ -1,0 +1,79 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchanting"
+	group: ""
+	icon: "minecraft:enchanting_table"
+	id: "61C2C53FAEA29DAB"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D2CF1E21F0CE6D2"
+			rewards: [
+				{
+					count: 32
+					id: "33D025331A7F1320"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E2B866EC652BC67"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "668D72C746E9B2DE"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Choose your enchants with the Enchanting Infuser."
+			tasks: [{
+				id: "7AA58655B46A9EED"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D2CF1E21F0CE6D2"]
+			id: "36CCCD35D7276779"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7365AEF70D435E84"
+				table_id: 4628877318647506976L
+				type: "random"
+			}]
+			subtitle: "Manipulate the enchantments on your gear for maximum efficiency."
+			tasks: [{
+				id: "5451C61DA5CF57F9"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D2CF1E21F0CE6D2"]
+			id: "622F8D0272894EA6"
+			rewards: [{
+				id: "09E8C82ED932A1B6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a grindstone to remove enchantments from equipment."
+			tasks: [{
+				id: "6B44D46B2DD4AD33"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	title: "Advanced Enchanting"
+}

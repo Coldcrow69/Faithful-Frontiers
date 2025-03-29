@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_melodies"
+	group: ""
+	id: "17753E3737867566"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		id: "32CD5CF09830864E"
+		tasks: [{
+			id: "7F047629B92C5259"
+			title: "placeholder"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Immersive Melodies"
+}

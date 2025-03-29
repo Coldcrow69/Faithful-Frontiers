@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_hammers"
+	group: ""
+	id: "75D38B7F9E6FFEE5"
+	order_index: 15
+	quest_links: [ ]
+	quests: [{
+		id: "343914BA9FE33C83"
+		tasks: [{
+			id: "12D5B4477128148F"
+			title: "placeholder"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Just Hammers"
+}

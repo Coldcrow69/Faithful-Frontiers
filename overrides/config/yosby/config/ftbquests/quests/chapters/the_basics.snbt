@@ -1,0 +1,617 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_basics"
+	group: ""
+	icon: "minecraft:spyglass"
+	id: "3039DE1A8B317E9D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1ABF3FAF117FEC20"
+			rewards: [
+				{
+					id: "189BAB5B0E405590"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "1FE7EE81601FCFFF"
+					item: "sleeping_bags:red_sleeping_bag"
+					type: "item"
+				}
+			]
+			subtitle: "Explore a whole new world of opportunity before the burnout hits and you don't play for another year."
+			tasks: [{
+				icon: "minecraft:spyglass"
+				id: "268C7CD75E8EFF46"
+				observe_type: 0
+				timer: 0L
+				title: "Welcome to Faithful Frontiers"
+				to_observe: "minecraft:air"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1ABF3FAF117FEC20"]
+			id: "0CCA9D3ECE874B58"
+			rewards: [{
+				count: 16
+				id: "1BED89855F5780E0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Surely nothing bad will happen to this serene village."
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "6E80C282DE539C61"
+				structure: "#minecraft:village"
+				title: "Find a Village"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CCA9D3ECE874B58"]
+			id: "1108B0B76AA63C2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E2D203A59B2D8F8"
+					table_id: 652795833319879409L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4100700988D87E7D"
+					table_id: 8952722406283378408L
+					type: "choice"
+				}
+			]
+			subtitle: "Trading with them isn't a war crime, enslaving them might be."
+			tasks: [{
+				icon: "minecraft:book"
+				id: "1AAB4DFF2C8F6CE2"
+				stat: "minecraft:traded_with_villager"
+				title: "Trade With a Villager"
+				type: "stat"
+				value: 1
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1108B0B76AA63C2B"]
+			id: "5CCEFBD11381AE12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56E3B14CD6C29D11"
+					table_id: 5320903358926637708L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76D1244194F05327"
+					table_id: 6768958311133431536L
+					type: "choice"
+				}
+			]
+			subtitle: "That first diamond still feels exciting after all these years..."
+			tasks: [{
+				id: "2BF81DB35A6EBB19"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Find Diamonds"
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CCEFBD11381AE12"]
+			id: "32517D8EF7632443"
+			rewards: [
+				{
+					count: 18
+					id: "2A44318237F5F94E"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "0609BD3886BDCB7A"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The floor is lava, your gear is a joke... ten blocks later, your spirit is broke."
+			tasks: [{
+				id: "294192CF29E1D18F"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Find Obsidian"
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32517D8EF7632443"]
+			id: "4770620D7C72ABFD"
+			rewards: [{
+				id: "709A2AD1F9BF86ED"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Abandon all hope, ye who enter here."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:blaze_powder"
+				id: "1D7D964BB868CBD3"
+				title: "Enter The Nether"
+				type: "dimension"
+			}]
+			title: "Enter The Nether"
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4770620D7C72ABFD"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "36CF3CD9CE9F08C9"
+			optional: true
+			rewards: [
+				{
+					id: "18740856FC09C5F7"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "757BA9A6B5120DDC"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			subtitle: "Why are there never any wither skeletons when you're looking for them?"
+			tasks: [{
+				icon: "minecraft:wither_skeleton_skull"
+				id: "17EC81F4EC30012A"
+				optional_task: true
+				structure: "minecraft:mineshaft"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			title: "Find a Nether Fortress"
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4770620D7C72ABFD"]
+			id: "6B9DADBF46CF482E"
+			optional: true
+			rewards: [
+				{
+					id: "2C7D4E0FB95E688C"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "763447E40F33984A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "NERF BASTION!"
+			tasks: [{
+				icon: "minecraft:netherite_upgrade_smithing_template"
+				id: "431C07D3FEE64DF0"
+				optional_task: true
+				structure: "minecraft:bastion_remnant"
+				title: "Find a Bastion"
+				type: "structure"
+			}]
+			title: "Find a Bastion"
+			x: 21.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32517D8EF7632443"]
+			id: "592BBA0916C500B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28CDE64FA383924A"
+				table_id: 4628877318647506976L
+				type: "random"
+			}]
+			subtitle: "Upgrade your gear… or just roll Bane of Arthropods again."
+			tasks: [{
+				id: "60D5F83EC21052B7"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Craft an Enchanting Table"
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4770620D7C72ABFD"]
+			id: "7BE01901CA45EC44"
+			rewards: [{
+				count: 3
+				id: "5DBFE7128BC5B1EE"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Double, double toil and trouble; Fire burn and caldron bubble."
+			tasks: [{
+				id: "78AA14E5926B13F9"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "Craft a Brewing Stand"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1ABF3FAF117FEC20"]
+			id: "5BFCB215DBEF23BF"
+			rewards: [
+				{
+					count: 16
+					id: "70776FB1CBFA86B5"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D849BD43725745F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Like Atlantis, but with more lasers and piranhas."
+			tasks: [{
+				icon: "smallships:oak_brigg"
+				id: "58C301F145FE5C6B"
+				optional_task: true
+				structure: "minecraft:mineshaft"
+				title: "Find a Ocean Monument"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BFCB215DBEF23BF"]
+			id: "32F4256971D50300"
+			rewards: [
+				{
+					id: "55A3033CF67C90CB"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6026FBDAEBC47284"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Big fish, bad attitude, worse hitbox."
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "502EEB5487A8E751"
+				optional_task: true
+				title: "Kill a Elder Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1ABF3FAF117FEC20"]
+			id: "508D42343ED501A3"
+			rewards: [
+				{
+					id: "1810C035AC3C77B8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "060B1F18FE568D92"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "... He's right behind me, isn't he?"
+			tasks: [{
+				icon: "minecraft:recovery_compass"
+				id: "44EE1CAF5B16C760"
+				optional_task: true
+				structure: "minecraft:ancient_city"
+				title: "Find a Ancient City"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["508D42343ED501A3"]
+			id: "4B40BCB314AE51CC"
+			rewards: [
+				{
+					id: "469BD89DAE8973AC"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "101DAEF0FF53CD1F"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					id: "5CEE4D672F3603E1"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "3B463D2E0B080878"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "5EC4C1437A8A5CC7"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+			]
+			subtitle: "In the Deep Dark, no one can hear you scream... Except The Warden."
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_shrieker"
+				id: "7CAF4C3F4E191CAF"
+				optional_task: true
+				title: "Kill a Warden"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4770620D7C72ABFD"]
+			id: "6AFEDF425036B857"
+			rewards: [
+				{
+					id: "01381B9E86DDF5E7"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48B85EFDED560EC3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:infinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Wait where did it go? I just threw it, did it break again!?"
+			tasks: [{
+				id: "4AF3BB80D97312C7"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Craft a Eye of Ender"
+			x: 21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6AFEDF425036B857"]
+			id: "67B7C04B6B2E9B0F"
+			rewards: [
+				{
+					id: "55F846323FABB6AC"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73549D0524F42D93"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 3b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Have you found the portal room yet? Of course you haven't."
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "3309EC97297017F0"
+				structure: "betterstrongholds:stronghold"
+				title: "Find a Stronghold"
+				type: "structure"
+			}]
+			x: 23.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67B7C04B6B2E9B0F"]
+			icon: "minecraft:end_crystal"
+			id: "34948A594C41F516"
+			rewards: [{
+				count: 4
+				id: "55CF819FA2D1180E"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			subtitle: "The End... And then they lived happily ever after. Except the poor dragon..."
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7FF9771D36977A4A"
+				title: "Enter The End"
+				type: "dimension"
+			}]
+			x: 25.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34948A594C41F516"]
+			id: "27D2D509D40BA66E"
+			rewards: [
+				{
+					id: "658196E962C7218D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "58811EB62E1592D3"
+					item: "minecraft:eye_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "Slay the dragon and save the princess... What do you mean she's in another castle?"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "178328E3AED3541B"
+				title: "Kill The Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			x: 27.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34948A594C41F516"]
+			id: "4E3EF761A2558A4C"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "564D2F1AE56EF511"
+				item: {
+					Count: 1
+					id: "minecraft:firework_rocket"
+					tag: {
+						Fireworks: {
+							Flight: 3b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "It's not flying. It's falling... With style!"
+			tasks: [{
+				id: "123B2B41B68D9977"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Elytra"
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["36CF3CD9CE9F08C9"]
+			id: "4C89663B0C684ED0"
+			rewards: [
+				{
+					id: "347A4CF33E91E476"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "4CB733A471C64151"
+					item: "minecraft:rib_armor_trim_smithing_template"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2BC5A647334BC209"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			subtitle: "We can probably fight it here right? I think chunk protection will work..."
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "2F01EADA69909E1C"
+				optional_task: true
+				title: "Kill a Wither"
+				type: "kill"
+				value: 1L
+			}]
+			x: 23.5d
+			y: -1.5d
+		}
+	]
+	title: "The Basics"
+}

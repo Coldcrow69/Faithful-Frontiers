@@ -1,0 +1,266 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beyond_the_end"
+	group: ""
+	icon: "bosses_of_mass_destruction:soul_star"
+	id: "3B8CE31C8FF30936"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "05302DBC6D79BABF"
+			rewards: [{
+				id: "0D94EC8A7CD7D3C9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "The Dragon may have been the end of the game, but it's not where we stop. A world of challenging bosses and juicy loot is waiting for you!"
+			tasks: [{
+				id: "176724F525719A64"
+				title: "Danger and Glory Awaits"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05302DBC6D79BABF"]
+			id: "65964BFC3DF545FE"
+			rewards: [{
+				id: "57412F582858BCDD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Prepare carefully..."
+			tasks: [{
+				id: "1081AB201C0F3664"
+				title: "Bosses of Mass Destruction"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65964BFC3DF545FE"]
+			id: "4497256AF85DB974"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "345E62FC59E568A7"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+				{
+					id: "2A6313F49E652871"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Found in rare towers in cold biomes. Locate the towers by following soul stars."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:soul_star"
+				id: "686BCDC6351D7E23"
+				title: "The Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65964BFC3DF545FE"]
+			id: "725823A5BDA25681"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AA37AEC2A15EAA6"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+				{
+					id: "42C303CCB7712684"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Appears in rare structures in the end islands."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "1010B77A674CA946"
+				title: "The Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65964BFC3DF545FE"]
+			id: "530A0CA28E374DBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24C2A25451C63E96"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+				{
+					id: "421FB911B632A16E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Appears in rare structures in the nether. "
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "minecraft:lava_bucket"
+				id: "2F83C980C34F8521"
+				title: "The Nether Gauntlet"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65964BFC3DF545FE"]
+			id: "57B3D23BE53307EB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "388D94F662B00E7C"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+				{
+					id: "09833B4E3E95ACC4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Appears in rare caves at the bottom of the world. Void lilies will point the way."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "minecraft:spore_blossom"
+				id: "40F2C38D7F785FE1"
+				title: "The Void Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05302DBC6D79BABF"]
+			id: "4DE8F4518D2CA4BC"
+			rewards: [{
+				id: "5917E34FE6DBF73A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "The Deeper Darker awaits brave adventurers who defeat the warden and repair the broken portal."
+			tasks: [{
+				id: "5D14D01286BFB848"
+				title: "Deeper and Darker"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DE8F4518D2CA4BC"]
+			id: "74EBA3C29B2591EE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CA231FC8390B406"
+					table_id: 4628877318647506976L
+					type: "random"
+				}
+				{
+					id: "2B2278BD3FF70E6B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Repair the broken portal and enter the deeper darker."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "3FA68844CD554226"
+				title: "The Deeper Darker"
+				type: "dimension"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74EBA3C29B2591EE"]
+			id: "05FADA4E63D64034"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19E78F8C1B943B5E"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+				{
+					id: "1BD906DE9F41D070"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Kill the stalker in the deeper darker."
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:soul_crystal"
+				id: "4798A4E136F424F5"
+				title: "The Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05302DBC6D79BABF"]
+			id: "4D8A0BAE8B75FECF"
+			rewards: [{
+				id: "57EF763C440C0809"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Mowzie's Mobs are scatter around the world for you to slay, can you kill them all?"
+			tasks: [{
+				id: "3E487F6F505453A6"
+				title: "Mowzie's Mobs"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "12CCC594ABA68795"
+			tasks: [{
+				id: "28CDC855E2298558"
+				title: "Stalwart Dugeons"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "08299D23CF3F197F"
+			tasks: [{
+				id: "5D80C688D11A18C6"
+				title: "The Aether"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Beyond The End"
+}
