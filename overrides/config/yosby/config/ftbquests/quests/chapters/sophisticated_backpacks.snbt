@@ -4,17 +4,261 @@
 	filename: "sophisticated_backpacks"
 	group: ""
 	id: "36D63A6DDE311056"
-	order_index: 17
+	order_index: 18
 	quest_links: [ ]
-	quests: [{
-		id: "7E2413A44CF4B14C"
-		tasks: [{
-			id: "3C2716A8EDCC7477"
-			title: "placeholder"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"42615C6EA6B7E3EA"
+				"4C304689CE520A78"
+				"52C80055EDC75184"
+			]
+			description: ["Backpacks are a great way to move your items around or collect even more while out adventuring!"]
+			id: "3FBA05936F719D9A"
+			rewards: [{
+				id: "1BFA8DE1EC7FD8EA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4D1A99C2C56CD569"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Storage while traveling!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "42615C6EA6B7E3EA"
+			tasks: [{
+				count: 4L
+				id: "0942650038377A4C"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "52C80055EDC75184"
+			tasks: [{
+				count: 4L
+				id: "60904982D9911C89"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "4C304689CE520A78"
+			tasks: [{
+				id: "51873C597E6B04E2"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FBA05936F719D9A"]
+			description: ["Upgrade to your backpack!"]
+			id: "328D8AC248CE648D"
+			rewards: [{
+				id: "5B114076FED2D812"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6356499A017BE565"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["328D8AC248CE648D"]
+			description: ["Upgrade to your backpack!"]
+			id: "660241245A4E801D"
+			rewards: [{
+				id: "2BD8DE8C05ECF8D7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "45654CADCF1076E0"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["660241245A4E801D"]
+			description: ["Upgrade to your backpack!"]
+			id: "520BC37CE94B062A"
+			rewards: [{
+				id: "65F5BC392EE89D95"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "680C83F448E61110"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["520BC37CE94B062A"]
+			description: ["Upgrade to your backpack!"]
+			id: "211121BBE147456C"
+			rewards: [{
+				id: "79A393A91F75B57E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "040ED15F88983B5F"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["211121BBE147456C"]
+			description: ["Upgrade to your backpack!"]
+			id: "6FE797FA47F45288"
+			rewards: [{
+				id: "19C1708D8B259D74"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2F405FE41112DEAA"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FBA05936F719D9A"]
+			description: [
+				"These upgrade bases are your way into the world of sophisticated backpacks!"
+				""
+				"There are plenty of upgrades, you'll need these to craft upgrades."
+			]
+			id: "665346CC6FD3F301"
+			rewards: [{
+				id: "2E926B51AC28DFCB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "784AF1E8FCD498B6"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["665346CC6FD3F301"]
+			description: ["Add a crafting table to your backpack!"]
+			id: "1B367905C14DD3B9"
+			rewards: [{
+				id: "3619BB42C68C4D63"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3478773A5A71DF74"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["665346CC6FD3F301"]
+			description: [
+				"Increase the stack size of your backpack!"
+				""
+				"(There are more stack upgrades)"
+			]
+			id: "0C446770EB8A0626"
+			rewards: [{
+				id: "5912CBF68E927067"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7966B1B088668661"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["665346CC6FD3F301"]
+			description: [
+				"Everyone needs music for their adventure!"
+				"Add a jukebox into your backpack."
+			]
+			id: "3E291164453FA755"
+			rewards: [{
+				id: "1DA9CEAE08CFB2E5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4EE1D46E3D86A272"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["665346CC6FD3F301"]
+			description: ["Add a magnet to pick up items stright to your backpack!"]
+			id: "653F88239A4CC09E"
+			rewards: [{
+				id: "6B28C07ADCBF9500"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0648C58E79FEA677"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["665346CC6FD3F301"]
+			description: ["Filter items into your backpack!"]
+			id: "5095AC472238383E"
+			rewards: [{
+				id: "3D420B87F74DE53D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "344C4FFD25E357C9"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
 	title: "Sophisticated Backpacks"
 }
