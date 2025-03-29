@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "joy_of_painting"
+	group: ""
+	id: "1F96633A5C110381"
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		id: "7BE4807EF76B2349"
+		tasks: [{
+			id: "69010DB7ABB33094"
+			title: "placeholder"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Joy of Painting"
+}

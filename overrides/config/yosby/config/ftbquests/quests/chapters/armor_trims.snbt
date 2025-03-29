@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor_trims"
+	group: ""
+	icon: "minecraft:eye_armor_trim_smithing_template"
+	id: "0B4356EE21F9AF1E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4BF1456806879583"]
+			id: "686D2742829C6C54"
+			rewards: [{
+				id: "4659D5B039655AE4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Functional Armor Trims adds meaningful effects to trims on armor. For more information, check out the Functional Armor Trims page on CurseForge."
+			tasks: [{
+				id: "4ED4AEF39D6D5004"
+				title: "Functional Armor Trim"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686D2742829C6C54"]
+			id: "79C7FA41F28556E5"
+			rewards: [
+				{
+					count: 8
+					id: "432EBD58C42C26B1"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "175A251EBD4EA627"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5B6CB81AA7EF70A0"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a smithing table to apply trims."
+			tasks: [{
+				id: "1C7D210A5AE3FFD2"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4BF1456806879583"
+			rewards: [
+				{
+					count: 3
+					id: "1EB782E33D98861F"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "424AB21C7F5424C9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5B280FCE43813281"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
+			subtitle: "Anvils can repair your gear without a scaling cost. Rename anything for free!"
+			tasks: [{
+				id: "12F4B5E4739B8F51"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BF1456806879583"]
+			id: "23335064DF831E09"
+			rewards: [{
+				id: "72FA082AC9F5D98F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Reforge the quality of your equipment at an anvil."
+			tasks: [{
+				id: "369433CD9FFFF17C"
+				item: {
+					Count: 1
+					id: "tiered:armorers_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4BF1456806879583"]
+			id: "7427EAA6F811ADE0"
+			rewards: [{
+				id: "4031DC23F957CBB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Reforge the quality of your equipment at an anvil."
+			tasks: [{
+				id: "0E33742F48B4B7D0"
+				item: {
+					Count: 1
+					id: "tiered:toolsmiths_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BF1456806879583"]
+			id: "37A6FBB65E5837F9"
+			subtitle: "Reforge the quality of your equipment at an anvil."
+			tasks: [{
+				id: "161EF1B118660E8E"
+				item: {
+					Count: 1
+					id: "tiered:weaponsmiths_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	title: "Equipment Upgrades"
+}

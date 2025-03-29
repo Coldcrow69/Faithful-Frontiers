@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "project_red"
+	group: ""
+	id: "0424F7A590D57BC1"
+	order_index: 16
+	quest_links: [ ]
+	quests: [{
+		id: "1792CBDEF71DA299"
+		tasks: [{
+			id: "01F2201B8ACD1C1A"
+			title: "placeholder"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Project Red"
+}

@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bartering"
+	group: ""
+	icon: "barteringstation:bartering_station"
+	id: "721E2D637050A194"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4158C2900CB97FF5"
+			rewards: [{
+				count: 16
+				id: "5BB14BBE40064BB9"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Craft a Bartering Station to automate piglin trades."
+			tasks: [{
+				id: "54F14D9EBDD6403E"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4158C2900CB97FF5"]
+			id: "762C5F2DE874A6AA"
+			rewards: [
+				{
+					count: 16
+					id: "4DB1CB84AF049278"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "467EB0C8D04D0824"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Barter for a Soul Speed III book."
+			tasks: [{
+				id: "21DE272A8E2BD1CE"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:soul_speed"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4158C2900CB97FF5"]
+			id: "0D50F3F463D3C8FB"
+			rewards: [
+				{
+					count: 16
+					id: "792671810A60E56F"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0F3C77CC7CA0F069"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Barter for a Potion of Fire Resistance."
+			tasks: [{
+				id: "45E05D4C0D1C03A1"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4158C2900CB97FF5"]
+			id: "2E4FB41C6A1A521B"
+			rewards: [
+				{
+					count: 16
+					id: "13746A01903842B8"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "0A884F27584B652B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Barter for Crying Obsidian."
+			tasks: [{
+				id: "5983B2B94F26204D"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4158C2900CB97FF5"]
+			id: "0879FFECD7577BAD"
+			rewards: [
+				{
+					id: "6B840D485528A989"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:power"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6A83BA22704B1F98"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Barter for Spectral Arrows."
+			tasks: [{
+				id: "4EC5056279331D69"
+				item: "minecraft:spectral_arrow"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "Bartering"
+}

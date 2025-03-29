@@ -1,0 +1,71 @@
+{
+	id: "1C08F5ED6D06BE24"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "minecraft:netherite_ingot" }
+		{ count: 4, item: "minecraft:diamond_block" }
+		{ count: 4, item: "minecraft:emerald_block" }
+		{ item: "minecraft:netherite_upgrade_smithing_template" }
+		{ item: "minecraft:sentry_armor_trim_smithing_template" }
+		{ item: "minecraft:vex_armor_trim_smithing_template" }
+		{ item: "minecraft:wild_armor_trim_smithing_template" }
+		{ item: "minecraft:coast_armor_trim_smithing_template" }
+		{ item: "minecraft:dune_armor_trim_smithing_template" }
+		{ item: "minecraft:wayfinder_armor_trim_smithing_template" }
+		{ item: "minecraft:raiser_armor_trim_smithing_template" }
+		{ item: "minecraft:shaper_armor_trim_smithing_template" }
+		{ item: "minecraft:host_armor_trim_smithing_template" }
+		{ item: "minecraft:ward_armor_trim_smithing_template" }
+		{ item: "minecraft:silence_armor_trim_smithing_template" }
+		{ item: "minecraft:tide_armor_trim_smithing_template" }
+		{ item: "minecraft:snout_armor_trim_smithing_template" }
+		{ item: "minecraft:rib_armor_trim_smithing_template" }
+		{ item: "minecraft:eye_armor_trim_smithing_template" }
+		{ item: "minecraft:spire_armor_trim_smithing_template" }
+		{ item: "minecraft:spire_armor_trim_smithing_template" }
+		{ item: "deeperdarker:warden_upgrade_smithing_template" }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+		{ count: 2, item: "ironchest:crystal_chest" }
+		{ count: 4, item: "minecraft:enchanted_golden_apple" }
+		{ item: "enchantinginfuser:enchanting_infuser" }
+		{
+			item: {
+				Count: 1
+				id: "stalwart_dungeons:chorundum_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create_sa:rose_quartz_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create_sa:experience_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "stalwart_dungeons:diamond_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "stalwart_dungeons:tungsten_ingot" }
+	]
+	title: "End Game Table"
+}

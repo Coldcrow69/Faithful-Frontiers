@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "camping"
+	group: ""
+	icon: "minecraft:campfire"
+	id: "5D566B7D2B52C248"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1B17DD160647D1BD"
+			rewards: [{
+				id: "1911CC8855C92EBD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Campfires are not only vibey, but they heal you and prevents mobs from spawning."
+			tasks: [{
+				id: "0BC70C1BCBDAB7A0"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B17DD160647D1BD"]
+			id: "3A7E75805702683D"
+			rewards: [{
+				id: "571B99B833316D80"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Sleep in the open world without setting your spawn location."
+			tasks: [{
+				id: "4DEB9CCE812830AE"
+				item: "sleeping_bags:red_sleeping_bag"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Camping"
+}

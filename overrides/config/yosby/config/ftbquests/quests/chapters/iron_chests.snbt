@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_chests"
+	group: ""
+	id: "66020FCB58BE5956"
+	order_index: 13
+	quest_links: [ ]
+	quests: [{
+		id: "07703B1F42779E37"
+		tasks: [{
+			id: "2D45EDEAA6091155"
+			title: "placeholder"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Iron Chests"
+}

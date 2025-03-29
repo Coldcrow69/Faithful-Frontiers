@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exposure"
+	group: ""
+	icon: "exposure:camera"
+	id: "35E3117EC9C6B6DC"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29C0B3158C4207BA"
+			rewards: [{
+				id: "329A77F3C0985AB4"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			subtitle: "Photograph the pristine world around you."
+			tasks: [{
+				id: "5E9637877B1CE3DA"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29C0B3158C4207BA"]
+			id: "2E686316E4807B15"
+			rewards: [
+				{
+					count: 16
+					id: "6BAD7E7A62688C72"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "18C4401C3CC60663"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "697C73CD4BD734A7"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "543176488AEB3DCF"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0D5CC9D7F2E329DE"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+			]
+			subtitle: "Develop your photos onto paper."
+			tasks: [{
+				id: "3234535EDB8A2EF3"
+				item: "exposure:lightroom"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E686316E4807B15"]
+			id: "38B1515C14E73871"
+			rewards: [
+				{
+					id: "2D3C7B545BEFA63C"
+					item: "exposure:photograph_frame"
+					type: "item"
+				}
+				{
+					id: "5E1DE6FFA635CB97"
+					item: "exposure:album"
+					type: "item"
+				}
+			]
+			subtitle: "Hang up your photos or save them in an album."
+			tasks: [{
+				id: "14A860A990D8C81E"
+				item: "exposure:photograph"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	title: "Exposure"
+}

@@ -1,0 +1,718 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: ""
+	icon: {
+		Count: 1
+		id: "naturescompass:naturescompass"
+		tag: { }
+	}
+	id: "4FCFCADF422D2EAF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "54EDC25967D3E0F0"
+			rewards: [
+				{
+					id: "675F818E1D2EF5AF"
+					item: "smallships:oak_cog"
+					type: "item"
+				}
+				{
+					id: "67A263564C635928"
+					item: "astikorcarts:supply_cart"
+					type: "item"
+				}
+				{
+					id: "1708B6DB4CBF8472"
+					item: "minecraft:saddle"
+					type: "item"
+				}
+			]
+			subtitle: "Not all who wander are lost, but you probably are."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				id: "2930D1DB666CD572"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				title: "Nature's Compass"
+				type: "item"
+			}]
+			title: "Craft a Nature Compass"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "571AA7FC22AA050C"
+			rewards: [{
+				id: "4FBEA34A007FF2E1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Skyroot Forest"
+			tasks: [{
+				biome: "aether:skyroot_forest"
+				icon: "aether:skyroot_leaves"
+				id: "1F9FBB75898F1F8E"
+				optional_task: true
+				title: "Skyroot Forest"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "39893A45B532EA8D"
+			rewards: [{
+				id: "747D8A3CCB73EEAF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Skyroot Grove"
+			tasks: [{
+				biome: "aether:skyroot_grove"
+				icon: "aether:skyroot_sapling"
+				id: "59AFE9C3D7DCFC39"
+				optional_task: true
+				title: "Skyroot Grove"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "75BA1FAF5FE28184"
+			rewards: [{
+				id: "2CAC6481E74E5078"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Skyroot Meadow"
+			tasks: [{
+				biome: "aether:skyroot_meadow"
+				icon: "aether:skyroot_log"
+				id: "3DDF58386F73F2A8"
+				optional_task: true
+				title: "Skyroot Meadow"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "17B9F552835E84C0"
+			rewards: [{
+				id: "10B5DF94B5DE448E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Skyroot Woodland"
+			tasks: [{
+				biome: "aether:skyroot_woodland"
+				icon: "aether:stripped_skyroot_log"
+				id: "0D7AAC4312B18400"
+				optional_task: true
+				title: "Skyroot Woodland"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "15C01ECBDFF5B6CA"
+			rewards: [{
+				id: "100A9F0A910B6937"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Blooming Cavern"
+			tasks: [{
+				biome: "deeperdarker:blooming_caverns"
+				icon: "deeperdarker:blooming_sculk_stone"
+				id: "564DF9FCB84FDE56"
+				optional_task: true
+				title: "Blooming Caverns"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "5F21F8B2C910B82D"
+			rewards: [{
+				id: "6893BC58E85D26A1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit The Deeplands"
+			tasks: [{
+				biome: "deeperdarker:deeplands"
+				icon: "deeperdarker:infested_sculk"
+				id: "1F61A5C0E1B82FB5"
+				optional_task: true
+				title: "Deeplands"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "4504016199A6BE2F"
+			rewards: [{
+				id: "623296F9697AEE4E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Echoing Forest"
+			tasks: [{
+				biome: "deeperdarker:echoing_forest"
+				icon: "deeperdarker:echo_leaves"
+				id: "0828C77EB986A4FB"
+				optional_task: true
+				title: "Echoing Forest"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "5B635E0D2B069434"
+			rewards: [{
+				id: "06744BD801244F04"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit the Overcast Columns"
+			tasks: [{
+				biome: "deeperdarker:overcast_columns"
+				icon: "deeperdarker:sculk_gleam"
+				id: "36F36D41BACDFE92"
+				optional_task: true
+				title: "Overcast Columns"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "53744CA41FD1E52D"
+			rewards: [{
+				id: "5D1D15A36BE392D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit the Badlands"
+			tasks: [{
+				biome: "minecraft:badlands"
+				icon: "minecraft:dead_bush"
+				id: "70A86CC06EE77D83"
+				title: "Badlands"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			icon: "minecraft:sand"
+			id: "63CF1ECCE3D9B003"
+			rewards: [{
+				id: "5D558539A98907E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit the Beach"
+			tasks: [{
+				biome: "minecraft:beach"
+				icon: "minecraft:sand"
+				id: "74C012FDE82481E2"
+				title: "Beach"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "335212DD9F8526A8"
+			rewards: [{
+				id: "2298A1F4CE72380D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Cherry Grove"
+			tasks: [{
+				biome: "minecraft:cherry_grove"
+				icon: "minecraft:cherry_leaves"
+				id: "30168819D4BE4C76"
+				title: "Cherry Grove"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "74BD2268AA503C7B"
+			rewards: [{
+				id: "3B1B411C6F64E5FE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Cold Ocean"
+			tasks: [{
+				biome: "minecraft:cold_ocean"
+				icon: "minecraft:kelp"
+				id: "54E5DFECF4F45100"
+				title: "Cold Ocean"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "50CE08061E9416FE"
+			rewards: [{
+				id: "352B1768CE8327FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Warm Ocean"
+			tasks: [{
+				biome: "minecraft:warm_ocean"
+				icon: "minecraft:tube_coral"
+				id: "4CECF2B0E6E076FF"
+				title: "Warm Ocean"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "6756E8D97EC1CE17"
+			rewards: [{
+				id: "0B92F0F911A15082"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Dark Forest"
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				icon: "minecraft:dark_oak_log"
+				id: "1EBAB3D8C599AE01"
+				title: "Dark Forest"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "6C8CD729149A2BE5"
+			rewards: [{
+				id: "1E83FFE0E96D6EFF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Desert"
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: "minecraft:cactus"
+				id: "5DF90F16F2590C59"
+				title: "Desert"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "2F692AFAF1FB6C8F"
+			rewards: [{
+				id: "233F39F5830048A8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Dripstone Cave"
+			tasks: [{
+				biome: "minecraft:dripstone_caves"
+				icon: "minecraft:pointed_dripstone"
+				id: "2703D2FEBFC9B0A0"
+				title: "Dripstone Caves"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			icon: "minecraft:ice"
+			id: "580103EAAFDA2401"
+			rewards: [{
+				id: "3018B784391C1E5D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit the Frozen Peaks"
+			tasks: [{
+				biome: "minecraft:frozen_peaks"
+				icon: "minecraft:ice"
+				id: "0CCC6B2DF5747DC8"
+				title: "Frozen Peaks"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "564CBF85D02181E0"
+			rewards: [{
+				id: "49BB6A9706D18A78"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit the Ice Spikes"
+			tasks: [{
+				biome: "minecraft:ice_spikes"
+				icon: "chipped:packed_ice_pointed_dripstone"
+				id: "29184BE954A2D56A"
+				title: "Ice Spikes"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "2C69D92A09848019"
+			rewards: [{
+				id: "29EE6F3C2AF26B74"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit the Jungle"
+			tasks: [{
+				biome: "minecraft:jungle"
+				icon: "minecraft:jungle_log"
+				id: "63188E2BB2C2A565"
+				title: "Jungle"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "61A6E296FFB2CD05"
+			rewards: [{
+				id: "7784EEE04F0E5A2D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Forest"
+			tasks: [{
+				biome: "minecraft:forest"
+				icon: "minecraft:oak_leaves"
+				id: "25192C47A0DD632B"
+				title: "Forest"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "7E1FB4849F2D6414"
+			rewards: [{
+				id: "2A39AEE0EC5A99BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Lush Cave"
+			tasks: [{
+				biome: "minecraft:lush_caves"
+				icon: "minecraft:flowering_azalea"
+				id: "1447F29E15E40533"
+				title: "Lush Caves"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "4BC44C58F6582D58"
+			rewards: [{
+				id: "6790E25528A32BF0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit the Plains"
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:wheat"
+				id: "7767FC04CF951768"
+				title: "Plains"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "755EB3DB864E894E"
+			rewards: [{
+				id: "1049E693853C06F1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit the Savanna"
+			tasks: [{
+				biome: "minecraft:savanna"
+				icon: "minecraft:acacia_log"
+				id: "121A50DB9DC7EF18"
+				title: "Savanna"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "229890A4FAF1A369"
+			rewards: [{
+				id: "2F93556098AB9B47"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Swamp"
+			tasks: [{
+				biome: "minecraft:swamp"
+				icon: "minecraft:lily_pad"
+				id: "0CE871265CE00C3D"
+				title: "Swamp"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "1ABB68F179CDF8AB"
+			rewards: [{
+				id: "7A65D01C326A1DF8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a Taiga"
+			tasks: [{
+				biome: "minecraft:taiga"
+				icon: "minecraft:spruce_leaves"
+				id: "18FDD7CDDDD5ADC0"
+				title: "Taiga"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "5DC9983F2338A0C8"
+			rewards: [{
+				id: "0CA810DD4421F384"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Visit a River"
+			tasks: [{
+				biome: "minecraft:river"
+				icon: "minecraft:oak_boat"
+				id: "4CB2B192744518AA"
+				title: "River"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "6A6DFEE99AD8AFCF"
+			rewards: [{
+				id: "5D608A93A1F54E33"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Crimson Forest"
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				icon: "minecraft:crimson_nylium"
+				id: "2BE30FB5AB702AAD"
+				title: "Crimson Forest"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "02114CF1D4F375C5"
+			rewards: [{
+				id: "2EE0C4B0B1EC3712"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Warped Forest"
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				icon: "minecraft:warped_nylium"
+				id: "673C3543E28490DA"
+				title: "Warped Forest"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "3F04D05E5C7DEF5D"
+			rewards: [{
+				id: "462A3C3B16F56568"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Basalt Delta"
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				icon: "minecraft:basalt"
+				id: "70D3A4D39E130288"
+				title: "Basalt Delta"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "4224D1E8432D0D2E"
+			rewards: [{
+				id: "15AD6DE0AF76B669"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit a Soul Sand Valley"
+			tasks: [{
+				biome: "minecraft:soul_sand_valley"
+				icon: "minecraft:soul_sand"
+				id: "6A8A6E600FCD58E4"
+				title: "Soul Sand Valley"
+				type: "biome"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "3F37A3DCC210647B"
+			rewards: [{
+				id: "0B4E1450F4D057B7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Visit The Void"
+			tasks: [{
+				biome: "minecraft:the_void"
+				icon: "minecraft:bedrock"
+				id: "136230ADCC00E2D0"
+				optional_task: true
+				title: "The Void"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "4DEDC85B82A8185E"
+			rewards: [{
+				id: "290E414602222E93"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit the End Highlands"
+			tasks: [{
+				biome: "minecraft:end_highlands"
+				icon: "minecraft:end_stone"
+				id: "7AF0A5BFC7F7C11A"
+				title: "End Highlands"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "37A871887F651159"
+			rewards: [{
+				id: "4E63701BCC9305F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit the End Midlands"
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:end_stone"
+				id: "2C1E370FC6CB78F1"
+				title: "End Midlands"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54EDC25967D3E0F0"]
+			id: "5286C863B5ABC277"
+			rewards: [{
+				id: "62A5F6DF21EA4CCF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Visit the End Barrens"
+			tasks: [{
+				biome: "minecraft:end_barrens"
+				icon: "minecraft:end_stone"
+				id: "2AC9803044C90FD2"
+				title: "End Barrens"
+				type: "biome"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+	title: "Exploration"
+}
