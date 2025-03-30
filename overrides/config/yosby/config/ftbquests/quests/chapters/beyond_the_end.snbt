@@ -32,7 +32,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Prepare carefully..."
+			subtitle: "Learn more about \"Bosses of Mass Destruction\" on their CurseForge mod page."
 			tasks: [{
 				id: "1081AB201C0F3664"
 				title: "Bosses of Mass Destruction"
@@ -67,7 +67,7 @@
 				value: 1L
 			}]
 			x: 0.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["65964BFC3DF545FE"]
@@ -95,7 +95,7 @@
 				value: 1L
 			}]
 			x: -0.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["65964BFC3DF545FE"]
@@ -123,22 +123,22 @@
 				value: 1L
 			}]
 			x: -1.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["65964BFC3DF545FE"]
 			id: "57B3D23BE53307EB"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "388D94F662B00E7C"
-					table_id: 2020134832960880164L
-					type: "random"
-				}
-				{
 					id: "09833B4E3E95ACC4"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FE87B2BCD06B243"
+					table_id: 3405944067145981695L
+					type: "random"
 				}
 			]
 			subtitle: "Appears in rare caves at the bottom of the world. Void lilies will point the way."
@@ -151,7 +151,7 @@
 				value: 1L
 			}]
 			x: 1.5d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["05302DBC6D79BABF"]
@@ -161,7 +161,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "The Deeper Darker awaits brave adventurers who defeat the warden and repair the broken portal."
+			subtitle: "Learn more about \"Deeper and Darker\" on their CurseForge mod page."
 			tasks: [{
 				id: "5D14D01286BFB848"
 				title: "Deeper and Darker"
@@ -173,19 +173,11 @@
 		{
 			dependencies: ["4DE8F4518D2CA4BC"]
 			id: "74EBA3C29B2591EE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7CA231FC8390B406"
-					table_id: 4628877318647506976L
-					type: "random"
-				}
-				{
-					id: "2B2278BD3FF70E6B"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "2B2278BD3FF70E6B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Repair the broken portal and enter the deeper darker."
 			tasks: [{
 				dimension: "deeperdarker:otherside"
@@ -193,8 +185,9 @@
 				title: "The Deeper Darker"
 				type: "dimension"
 			}]
-			x: 3.5d
-			y: -1.0d
+			title: "Enter The Deeper Darker"
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["74EBA3C29B2591EE"]
@@ -202,17 +195,17 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "19E78F8C1B943B5E"
-					table_id: 2020134832960880164L
+					id: "27111FEE6A95416D"
+					table_id: 3405944067145981695L
 					type: "random"
 				}
 				{
-					id: "1BD906DE9F41D070"
+					id: "577DE4480D468502"
 					type: "xp_levels"
 					xp_levels: 10
 				}
 			]
-			subtitle: "Kill the stalker in the deeper darker."
+			subtitle: "Appears in The Deeper Darker."
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				icon: "deeperdarker:soul_crystal"
@@ -221,8 +214,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["05302DBC6D79BABF"]
@@ -232,14 +225,14 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Mowzie's Mobs are scattered around the world for you to slay, can you kill them all?"
+			subtitle: "Learn more about \"Mowzie's Mobs\" on their CurseForge mod page."
 			tasks: [{
 				id: "3E487F6F505453A6"
 				title: "Mowzie's Mobs"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05302DBC6D79BABF"]
@@ -249,26 +242,31 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			subtitle: "Find incredible dungeons and mini-bosses scattered around the world to fight."
+			subtitle: "Learn more about \"Stalwart Dungeons\" on their CurseForge mod page."
 			tasks: [{
 				id: "28CDC855E2298558"
 				title: "Stalwart Dugeons"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["05302DBC6D79BABF"]
 			id: "08299D23CF3F197F"
-			subtitle: "If The Nether is Hell, this must surely be heaven."
+			rewards: [{
+				id: "111BE9647803AB35"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Learn more about \"The Aether\" on their CurseForge mod page."
 			tasks: [{
 				id: "5D80C688D11A18C6"
 				title: "The Aether"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["08299D23CF3F197F"]
@@ -278,15 +276,263 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Enter The Aether"
+			subtitle: "Construct the glowstone portal to forge a pathway to heaven."
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "075E181E38B48CE5"
 				title: "Enter The Aether"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D8A0BAE8B75FECF"]
+			id: "22A78F64E95086F5"
+			rewards: [
+				{
+					id: "14C6151D9F4A6AB7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F7C1F434DA9F8B2"
+					table_id: 3405944067145981695L
+					type: "random"
+				}
+			]
+			subtitle: "Found deep underground in dungeons, guarding something..."
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_axe"
+				id: "41F6F7C264B67D6B"
+				title: "Ferrous Wroughnaut"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ferrous Wroughtnaut"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D8A0BAE8B75FECF"]
+			id: "490A22CA2A6FEA67"
+			rewards: [
+				{
+					id: "396813417F1218EC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "013AA3DA63C116D7"
+					table_id: 3405944067145981695L
+					type: "random"
+				}
+			]
+			subtitle: "Can appear in any snowy biome,"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "39F4990BC3A720CE"
+				title: "Frostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D8A0BAE8B75FECF"]
+			id: "2667CA50B93B7173"
+			rewards: [
+				{
+					id: "39EA36EAD9EEDF50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A1137E5C1E9715F"
+					table_id: 5320903358926637708L
+					type: "random"
+				}
+			]
+			subtitle: "Some call him the scourge of the savanna."
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "486050C72871485C"
+				title: "Umvuthi, the Sunbird"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D8A0BAE8B75FECF"]
+			id: "09A018EA21A869EC"
+			rewards: [
+				{
+					id: "215A294821C04B8C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C267078624E1A6F"
+					table_id: 4628877318647506976L
+					type: "random"
+				}
+			]
+			subtitle: "The monastery can be found on the peaks of the tallest mountains."
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "71B3A566501BE3E3"
+				structure: "mowziesmobs:monastery"
+				title: "The Monastery"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42614B5928812CBC"]
+			id: "1E36DAF78C291CE2"
+			rewards: [
+				{
+					id: "24B9E74C7A62DA62"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "625ACAC87B8B03F2"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+			]
+			subtitle: "Found ruling her dominion of valkyrie in the silver dungeon."
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: {
+					Count: 1
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "63D26190BAC05DE6"
+				title: "The Valkyrie Queen"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["42614B5928812CBC"]
+			id: "00B13FAAD3918A02"
+			rewards: [
+				{
+					id: "3D69499257E8D224"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54DDE2C2553188AD"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+			]
+			subtitle: "Found in gold dungeons, you need to prepare carefully for this fight..."
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: {
+					Count: 1
+					id: "aether:phoenix_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1F5B82D14764292A"
+				title: "The Sun Spirit"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12CCC594ABA68795"]
+			id: "73921BC5FDFEA137"
+			rewards: [
+				{
+					id: "27257751F09BFB69"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BD50752E6956517"
+					table_id: 3405944067145981695L
+					type: "random"
+				}
+			]
+			subtitle: "Found within special structures in The Nether."
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				icon: "stalwart_dungeons:keeping_castle_spawner"
+				id: "7496B39719EF4A5C"
+				title: "The Nether Keeper"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12CCC594ABA68795"]
+			id: "1E844DF98B9681C1"
+			rewards: [
+				{
+					id: "293E8E1233A7434F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24EAEF6D1955D706"
+					table_id: 3405944067145981695L
+					type: "random"
+				}
+			]
+			subtitle: "Found within special structures in The Nether."
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: "minecraft:ghast_tear"
+				id: "10E59735FBEAD636"
+				title: "The Awful Ghast"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 3.0d
 		}
 	]
 	title: "Beyond The End"

@@ -5,33 +5,24 @@
 	group: ""
 	icon: "enderstorage:ender_chest"
 	id: "0D5A23A99D30156C"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
-			id: "52333713D0AFB4C4"
-			rewards: [{
-				id: "06395978FC490E29"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			subtitle: "Basic inter-dimensional storage."
-			tasks: [{
-				id: "305E427AC0B28B80"
-				item: "minecraft:ender_chest"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["52333713D0AFB4C4"]
 			id: "29B3982F4DF027F3"
-			rewards: [{
-				id: "65ECED5F099D515F"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "65ECED5F099D515F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "5C7BFB5662458702"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
 			subtitle: "Better inter-dimensional storage!"
 			tasks: [{
 				id: "64A6C0E690235E04"
@@ -39,16 +30,30 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["52333713D0AFB4C4"]
+			dependencies: ["29B3982F4DF027F3"]
 			id: "2877608CC4AF64D2"
-			rewards: [{
-				id: "2B80A8C17E7E20B4"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "2B80A8C17E7E20B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "196FAA789C772A29"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "28CFB728B0C65430"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
 			subtitle: "Fluid inter-dimensional storage!"
 			tasks: [{
 				id: "4038AE72067C0035"
@@ -59,13 +64,21 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["52333713D0AFB4C4"]
+			dependencies: ["29B3982F4DF027F3"]
 			id: "68415B6827058E62"
-			rewards: [{
-				id: "357CB49776ED897C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "357CB49776ED897C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "1F7C5045989D2149"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
 			subtitle: "Portable inter-dimensional storage!"
 			tasks: [{
 				id: "031980BDA979D8D6"

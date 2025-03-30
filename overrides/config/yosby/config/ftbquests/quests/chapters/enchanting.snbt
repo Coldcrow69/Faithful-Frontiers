@@ -5,28 +5,23 @@
 	group: ""
 	icon: "minecraft:enchanting_table"
 	id: "61C2C53FAEA29DAB"
-	order_index: 3
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["622F8D0272894EA6"]
 			id: "4D2CF1E21F0CE6D2"
 			rewards: [
 				{
-					count: 32
+					count: 16
 					id: "33D025331A7F1320"
 					item: "minecraft:book"
 					type: "item"
 				}
 				{
-					count: 64
+					count: 32
 					id: "1E2B866EC652BC67"
 					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "668D72C746E9B2DE"
-					item: "minecraft:experience_bottle"
 					type: "item"
 				}
 			]
@@ -54,11 +49,10 @@
 				item: "enchantinginfuser:advanced_enchanting_infuser"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["4D2CF1E21F0CE6D2"]
 			id: "622F8D0272894EA6"
 			rewards: [{
 				id: "09E8C82ED932A1B6"
@@ -71,8 +65,8 @@
 				item: "minecraft:grindstone"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: -2.5d
+			y: -0.5d
 		}
 	]
 	title: "Advanced Enchanting"
