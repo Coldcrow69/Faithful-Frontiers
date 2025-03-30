@@ -5,7 +5,7 @@
 	group: ""
 	icon: "ironchest:iron_chest"
 	id: "66020FCB58BE5956"
-	order_index: 12
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

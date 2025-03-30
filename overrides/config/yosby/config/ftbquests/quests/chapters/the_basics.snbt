@@ -60,20 +60,12 @@
 		{
 			dependencies: ["1108B0B76AA63C2B"]
 			id: "5CCEFBD11381AE12"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "56E3B14CD6C29D11"
-					table_id: 5320903358926637708L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "76D1244194F05327"
-					table_id: 6768958311133431536L
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56E3B14CD6C29D11"
+				table_id: 5320903358926637708L
+				type: "choice"
+			}]
 			subtitle: "That first diamond still feels exciting after all these years..."
 			tasks: [{
 				id: "2BF81DB35A6EBB19"
@@ -144,17 +136,16 @@
 			dependencies: ["4770620D7C72ABFD"]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "36CF3CD9CE9F08C9"
-			optional: true
 			rewards: [
 				{
-					id: "18740856FC09C5F7"
-					item: "minecraft:brewing_stand"
+					id: "33EC3BF1AAC23C82"
+					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
 				{
-					id: "757BA9A6B5120DDC"
-					item: "minecraft:cauldron"
-					type: "item"
+					id: "5DFB25B9F3980E97"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			subtitle: "Why are there never any wither skeletons when you're looking for them?"
@@ -173,7 +164,6 @@
 		{
 			dependencies: ["4770620D7C72ABFD"]
 			id: "6B9DADBF46CF482E"
-			optional: true
 			rewards: [
 				{
 					id: "2C7D4E0FB95E688C"
@@ -183,7 +173,7 @@
 				{
 					id: "763447E40F33984A"
 					type: "xp_levels"
-					xp_levels: 20
+					xp_levels: 10
 				}
 			]
 			subtitle: "NERF BASTION!"
@@ -254,7 +244,6 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "1D849BD43725745F"
 					item: {
 						Count: 1
@@ -520,7 +509,6 @@
 		{
 			dependencies: ["34948A594C41F516"]
 			id: "4E3EF761A2558A4C"
-			optional: true
 			rewards: [{
 				count: 64
 				id: "564D2F1AE56EF511"
@@ -587,12 +575,24 @@
 		}
 		{
 			id: "0F97F064285317A7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6CA1BFC2AF146EAE"
-				table_id: 8952722406283378408L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CA1BFC2AF146EAE"
+					table_id: 8952722406283378408L
+					type: "choice"
+				}
+				{
+					id: "4554A762CB7034BD"
+					item: "sleeping_bags:red_sleeping_bag"
+					type: "item"
+				}
+				{
+					id: "049299B522B9AE85"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
 			subtitle: "Welcome to Faithful Frontiers. "
 			tasks: [{
 				id: "0A1AAD1C669BB62B"

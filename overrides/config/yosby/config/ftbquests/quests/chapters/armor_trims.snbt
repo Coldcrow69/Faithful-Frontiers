@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:eye_armor_trim_smithing_template"
 	id: "0B4356EE21F9AF1E"
-	order_index: 4
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -45,6 +45,11 @@
 					count: 8
 					id: "5B6CB81AA7EF70A0"
 					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "2698A80D7835C054"
+					item: "minecraft:name_tag"
 					type: "item"
 				}
 			]
@@ -89,11 +94,18 @@
 		{
 			dependencies: ["4BF1456806879583"]
 			id: "23335064DF831E09"
-			rewards: [{
-				id: "72FA082AC9F5D98F"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
+			rewards: [
+				{
+					id: "72FA082AC9F5D98F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4870E0802C4A0481"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
 			subtitle: "Reforge the quality of your equipment at an anvil."
 			tasks: [{
 				id: "369433CD9FFFF17C"
@@ -112,11 +124,18 @@
 		{
 			dependencies: ["4BF1456806879583"]
 			id: "7427EAA6F811ADE0"
-			rewards: [{
-				id: "4031DC23F957CBB4"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4031DC23F957CBB4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4392681A38D7B6CB"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
 			subtitle: "Reforge the quality of your equipment at an anvil."
 			tasks: [{
 				id: "0E33742F48B4B7D0"
@@ -135,6 +154,18 @@
 		{
 			dependencies: ["4BF1456806879583"]
 			id: "37A6FBB65E5837F9"
+			rewards: [
+				{
+					id: "1FCC26257AA3B3A6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "52046D23EACE3637"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
 			subtitle: "Reforge the quality of your equipment at an anvil."
 			tasks: [{
 				id: "161EF1B118660E8E"

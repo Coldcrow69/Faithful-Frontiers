@@ -3,18 +3,148 @@
 	default_quest_shape: ""
 	filename: "just_hammers"
 	group: ""
+	icon: {
+		Count: 1
+		id: "justhammers:diamond_destructor_hammer"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "75D38B7F9E6FFEE5"
-	order_index: 15
+	order_index: 16
 	quest_links: [ ]
-	quests: [{
-		id: "343914BA9FE33C83"
-		tasks: [{
-			id: "12D5B4477128148F"
-			title: "placeholder"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["440EE7405EAF574F"]
+			id: "55E9D029A8C330C4"
+			rewards: [{
+				id: "7A4EDA59AD2CCB91"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a stone hammer."
+			tasks: [{
+				id: "3CE993BFB4E8FF51"
+				item: {
+					Count: 1
+					id: "justhammers:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55E9D029A8C330C4"]
+			id: "7905F4B46D453C28"
+			rewards: [{
+				id: "3C357956AB2BE31A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a stone impact hammer."
+			tasks: [{
+				id: "1F56D0BD8E785E60"
+				item: {
+					Count: 1
+					id: "justhammers:stone_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55E9D029A8C330C4"]
+			id: "5621EBDE8239F58C"
+			rewards: [{
+				id: "52731CB35F74B725"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a reinforced impact hammer."
+			tasks: [{
+				id: "0B3C6A3628BD69F5"
+				item: {
+					Count: 1
+					id: "justhammers:stone_reinforced_impact_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55E9D029A8C330C4"]
+			id: "06454044AA5699C4"
+			rewards: [{
+				id: "3EFE176C05CE8311"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Craft a destructor hammer."
+			tasks: [{
+				id: "35C2560BC912C281"
+				item: {
+					Count: 1
+					id: "justhammers:stone_destructor_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "440EE7405EAF574F"
+			rewards: [{
+				id: "59EE13AB544507B9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Hammers come in 5 varieties and all materials up to netherite. Step up your mining with AOE destruction!"
+			tasks: [{
+				id: "17E99FEB32BBC053"
+				title: "Just Hammers"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55E9D029A8C330C4"]
+			id: "2E192C87A0AB04E8"
+			rewards: [{
+				id: "031CA14C50B984A8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a reinforced stone hammer."
+			tasks: [{
+				id: "40966EB6BC993E0F"
+				item: {
+					Count: 1
+					id: "justhammers:stone_reinforced_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+	]
 	title: "Just Hammers"
 }

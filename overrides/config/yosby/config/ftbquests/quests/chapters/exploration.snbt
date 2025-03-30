@@ -21,11 +21,6 @@
 			id: "54EDC25967D3E0F0"
 			rewards: [
 				{
-					id: "675F818E1D2EF5AF"
-					item: "smallships:oak_cog"
-					type: "item"
-				}
-				{
 					id: "67A263564C635928"
 					item: "astikorcarts:supply_cart"
 					type: "item"
@@ -33,6 +28,11 @@
 				{
 					id: "1708B6DB4CBF8472"
 					item: "minecraft:saddle"
+					type: "item"
+				}
+				{
+					id: "7F50019A584DF6EA"
+					item: "minecraft:oak_boat"
 					type: "item"
 				}
 			]
