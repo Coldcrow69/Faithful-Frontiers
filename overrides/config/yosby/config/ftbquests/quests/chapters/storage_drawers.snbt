@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "storage_drawers"
-	group: ""
+	group: "2C410916624C86AD"
 	icon: "storagedrawers:controller"
 	id: "74337579E2B3CF36"
-	order_index: 7
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

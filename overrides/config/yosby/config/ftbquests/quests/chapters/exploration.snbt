@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "exploration"
-	group: ""
+	group: "22A2F4EE94456BFF"
 	icon: {
 		Count: 1
 		id: "naturescompass:naturescompass"
@@ -714,5 +714,5 @@
 			y: 1.0d
 		}
 	]
-	title: "Exploration"
+	title: "Passport"
 }

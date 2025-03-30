@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "project_red"
-	group: ""
+	group: "45BF2C62DB334C89"
 	icon: "projectred_transmission:red_insulated_wire"
 	id: "0424F7A590D57BC1"
-	order_index: 17
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

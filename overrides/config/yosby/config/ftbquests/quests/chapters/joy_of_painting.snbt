@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "joy_of_painting"
-	group: ""
+	group: "429F22EB024EE771"
 	icon: "xercapaint:item_easel"
 	id: "1F96633A5C110381"
-	order_index: 13
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

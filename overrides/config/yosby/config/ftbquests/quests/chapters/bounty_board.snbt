@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bounty_board"
-	group: ""
+	group: "3EC14A4580600991"
 	icon: "minecraft:target"
 	id: "16D0229629DA177A"
-	order_index: 12
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -144,8 +144,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			id: "5DD229C562532971"
@@ -160,8 +160,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			id: "1EF432D35FB0A682"
@@ -176,8 +176,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: 8.0d
+			y: -5.0d
 		}
 		{
 			icon: "minecraft:shulker_shell"
@@ -478,31 +478,6 @@
 			y: -5.0d
 		}
 		{
-			description: [
-				"This is an optional bounty board."
-				"Feel free to hunt everything, or don't."
-			]
-			id: "400EEDED9C4875B7"
-			rewards: [{
-				id: "5432D7E9C7341777"
-				item: {
-					Count: 1
-					id: "minecraft:wooden_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "76856C62511EB501"
-				title: "Bounty Board"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			icon: "minecraft:piglin_head"
 			id: "5EE14510140AA67D"
 			rewards: [{
@@ -582,7 +557,7 @@
 				value: 10L
 			}]
 			x: -1.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			id: "56994264983CBD14"
@@ -605,8 +580,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			id: "7CC1CCA058071EA3"
@@ -629,8 +604,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 1.5d
-			y: -6.0d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			id: "3D420E89C3100C4A"
@@ -645,8 +620,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -1.0d
-			y: 1.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			id: "40A805FF7F59D52D"
@@ -661,8 +636,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			icon: "minecraft:creeper_head"
@@ -935,152 +910,6 @@
 			}]
 			x: -1.0d
 			y: -2.0d
-		}
-		{
-			id: "15EC8FEA057436EC"
-			rewards: [{
-				id: "5BF46C6874DB60D6"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				entity: "mowziesmobs:foliaath"
-				id: "29DA39B7C1161F39"
-				type: "kill"
-				value: 5L
-			}]
-			x: 8.0d
-			y: -5.0d
-		}
-		{
-			id: "38320CE0555157A9"
-			rewards: [{
-				id: "3777774F0BF2D369"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "mowziesmobs:ferrous_wroughtnaut"
-				id: "49239C3DBAE178CE"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.0d
-			y: -6.0d
-		}
-		{
-			icon: "mowziesmobs:frostmaw_spawn_egg"
-			id: "39CDC66EDB2DD606"
-			rewards: [{
-				id: "01EC56000ABF8666"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "mowziesmobs:frostmaw"
-				id: "58C202ADDB7901CC"
-				type: "kill"
-				value: 1L
-			}]
-			x: 5.0d
-			y: -6.0d
-		}
-		{
-			id: "7305F1266813AB38"
-			rewards: [{
-				id: "2D8398DD205CDC7C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				entity: "mowziesmobs:grottol"
-				id: "6C72A56AD123C126"
-				type: "kill"
-				value: 5L
-			}]
-			x: 6.0d
-			y: -5.0d
-		}
-		{
-			id: "1A9008913B3BA5D3"
-			rewards: [{
-				id: "335C3036678F9483"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				entity: "mowziesmobs:lantern"
-				id: "360F36C8435B0F62"
-				type: "kill"
-				value: 5L
-			}]
-			x: 7.0d
-			y: -5.0d
-		}
-		{
-			id: "40540363F6F7305B"
-			rewards: [{
-				id: "43C3FC7A38356D5E"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				entity: "mowziesmobs:naga"
-				id: "200A7A427D06E328"
-				type: "kill"
-				value: 5L
-			}]
-			x: 5.0d
-			y: -5.0d
-		}
-		{
-			id: "4B7E638D9ED5D56F"
-			rewards: [{
-				id: "0A832A121AD17CFD"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				entity: "mowziesmobs:umvuthana"
-				id: "2E25938056F6DA8C"
-				type: "kill"
-				value: 5L
-			}]
-			x: 9.0d
-			y: -5.0d
-		}
-		{
-			icon: "mowziesmobs:umvuthi_spawn_egg"
-			id: "20236EA59035B5C1"
-			rewards: [{
-				id: "53A9BF3E9BC20E1A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "mowziesmobs:umvuthi"
-				id: "16E636F55E90F2E5"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.0d
-			y: -6.0d
-		}
-		{
-			id: "6030B627E5B882C4"
-			rewards: [{
-				id: "54137F2DD3A6D898"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "mowziesmobs:sculptor"
-				id: "1F8DC932E97B8D59"
-				type: "kill"
-				value: 1L
-			}]
-			x: 8.0d
-			y: -6.0d
 		}
 		{
 			icon: "minecraft:creeper_head"
@@ -1454,152 +1283,6 @@
 			y: -3.0d
 		}
 		{
-			id: "55DC5BBCC6C07121"
-			rewards: [
-				{
-					count: 4
-					id: "10BE4A3836C30128"
-					item: "minecraft:end_crystal"
-					type: "item"
-				}
-				{
-					id: "78C69CB7A8001D99"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "7F1956C2C32B7F90"
-					item: "minecraft:dragon_breath"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "45E20E226DE9BA15"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			id: "619CC064DCA5EF5C"
-			rewards: [
-				{
-					id: "70FE1E9AD17DEED8"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-				{
-					id: "5A37BB152CB8CBCB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 3
-					id: "379BA05CD7B60EA6"
-					item: "minecraft:wither_rose"
-					type: "item"
-				}
-			]
-			tasks: [{
-				entity: "minecraft:wither"
-				id: "0D168DDB281F789C"
-				type: "kill"
-				value: 1L
-			}]
-			x: -1.5d
-			y: -5.0d
-		}
-		{
-			id: "2A5DD1E03AD56A61"
-			rewards: [
-				{
-					id: "1D30813380C5707E"
-					item: "minecraft:amethyst_block"
-					type: "item"
-				}
-				{
-					id: "3B6C255C1FF5C25E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [{
-				entity: "minecraft:warden"
-				id: "41BC4E11CF6A133A"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: -5.0d
-		}
-		{
-			id: "62A59B2B6A987F77"
-			rewards: [{
-				id: "54DCF09643F11D7E"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				id: "556EFDDE9C1F4F8A"
-				type: "kill"
-				value: 1L
-			}]
-			x: 11.0d
-			y: -6.0d
-		}
-		{
-			id: "6BE71D68DACF6110"
-			rewards: [{
-				id: "42531ADAE53493FA"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				id: "14DBC244D4F6E3D2"
-				type: "kill"
-				value: 1L
-			}]
-			x: 4.0d
-			y: -6.0d
-		}
-		{
-			id: "5ABC91FCD2A2AF28"
-			rewards: [{
-				id: "58C709E5B5BF0BBF"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:gauntlet"
-				id: "0DBD915989A3BA40"
-				type: "kill"
-				value: 1L
-			}]
-			x: 10.0d
-			y: -6.0d
-		}
-		{
-			id: "70BAEDFF64338C5F"
-			rewards: [{
-				id: "3F2648311AEA1EAE"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			tasks: [{
-				entity: "bosses_of_mass_destruction:void_blossom"
-				id: "2BDDFAE8F88899D5"
-				type: "kill"
-				value: 1L
-			}]
-			x: 7.0d
-			y: -6.0d
-		}
-		{
 			id: "48D397D74F8F5F4E"
 			rewards: [
 				{
@@ -1684,7 +1367,6 @@
 				"56A287D55942B7DA"
 				"368191E53BF0E469"
 				"274105084B750A23"
-				"4CB4D8EB6E457908"
 				"6722506CC62A74E2"
 				"1F2644C009E73FAF"
 				"491B08993831C53C"
@@ -1696,6 +1378,7 @@
 				"2EF3C6B069A0043E"
 				"3C59A323A80FBD74"
 				"65EC48616AFDF39E"
+				"5A96C05EEA3C27FA"
 			]
 			id: "5749205E5D98F027"
 			rewards: [
@@ -1709,6 +1392,12 @@
 					item: "minecraft:creeper_head"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7B114F75B819F510"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "76B0EC61F4450035"
@@ -1720,14 +1409,19 @@
 		}
 		{
 			id: "11293E99B612BFC4"
+			rewards: [{
+				id: "47CA6EF822A56A16"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				entity: "minecraft:iron_golem"
 				id: "12292280A2F1C1ED"
 				type: "kill"
 				value: 10L
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			icon: {
@@ -2084,8 +1778,8 @@
 				title: "Hero of the... village?"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2121,8 +1815,56 @@
 				title: "I'm just a farmer."
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			id: "1F0F793F65B07637"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "561D716A6632FB30"
+				title: "Kill: 10x Elder Guardian"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"02BE9ADA56C2464E"
+				"1F0F793F65B07637"
+				"56994264983CBD14"
+				"7CC1CCA058071EA3"
+			]
+			id: "5756FCD912189720"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "466A15E6CBAB1D28"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+				{
+					id: "1D3D71383E93ED74"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					id: "2187D29EF099E022"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "But at what cost?"
+			tasks: [{
+				id: "1A7A265D3087B1E1"
+				title: "Master of the Multi-verse"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -7.0d
 		}
 	]
 	title: "Bounty Board"

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "enchanting"
-	group: ""
+	group: "0BF39090891F2F9A"
 	icon: "minecraft:enchanting_table"
 	id: "61C2C53FAEA29DAB"
-	order_index: 10
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

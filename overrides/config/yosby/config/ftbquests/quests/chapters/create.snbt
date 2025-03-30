@@ -2,15 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
-	group: ""
+	group: "45BF2C62DB334C89"
 	icon: "create:large_cogwheel"
 	id: "100C477F4E63F20A"
-	order_index: 18
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Here's a wrench, get building."]
 			id: "57A7A5C79389A96A"
 			rewards: [
 				{
@@ -26,6 +25,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "A wrench and a dream."
 			tasks: [{
 				icon: "create:wrench"
 				id: "695A0E0BC4B78AEC"
@@ -484,6 +484,12 @@
 			dependencies: ["57A7A5C79389A96A"]
 			description: [""]
 			id: "4F95F00ED78FBAB9"
+			rewards: [{
+				id: "54D0614A42EC52A2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Gain deeper information about your stress network."
 			tasks: [{
 				id: "6989058FD488CE64"
 				item: "create:goggles"

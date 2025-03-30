@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bartering"
-	group: ""
+	group: "45BF2C62DB334C89"
 	icon: "barteringstation:bartering_station"
 	id: "721E2D637050A194"
-	order_index: 12
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beyond_the_end"
-	group: ""
+	group: "3EC14A4580600991"
 	icon: "bosses_of_mass_destruction:soul_star"
 	id: "3B8CE31C8FF30936"
 	order_index: 1

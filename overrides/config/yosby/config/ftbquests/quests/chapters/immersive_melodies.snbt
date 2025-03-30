@@ -2,14 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "immersive_melodies"
-	group: ""
+	group: "429F22EB024EE771"
 	icon: {
 		Count: 1
 		id: "immersive_melodies:lute"
 		tag: { }
 	}
 	id: "17753E3737867566"
-	order_index: 14
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

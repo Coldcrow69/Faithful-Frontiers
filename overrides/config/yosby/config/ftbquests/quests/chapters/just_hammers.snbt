@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "just_hammers"
-	group: ""
+	group: "0BF39090891F2F9A"
 	icon: {
 		Count: 1
 		id: "justhammers:diamond_destructor_hammer"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "75D38B7F9E6FFEE5"
-	order_index: 16
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
