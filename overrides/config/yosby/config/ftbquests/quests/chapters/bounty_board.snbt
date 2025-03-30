@@ -1,0 +1,2129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounty_board"
+	group: ""
+	icon: "minecraft:target"
+	id: "16D0229629DA177A"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2B4EAC921CF2243B"
+			rewards: [
+				{
+					id: "594BE02387859B21"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "769C55E8639DAD9F"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "27097014A0CDADBF"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "72D6E7E0C91733E5"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:slime_block"
+			id: "45DAB804DBECF789"
+			rewards: [{
+				id: "6BA311B4B14C6381"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "1C4CBFE6E091C946"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "313FD392336C366D"
+			rewards: [
+				{
+					id: "7437D19B8ABB2710"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "5940FBFF413D1A14"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "34D702020DB5EF36"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			icon: "supplementaries:enderman_head"
+			id: "69DC2C82BD4C8B1E"
+			rewards: [
+				{
+					id: "2C0E7239B342405C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "1FEF9DA2331D7002"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "78A3B86AF396CF19"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:blaze_powder"
+			id: "574EE13310C5945B"
+			rewards: [
+				{
+					id: "3388D83F640A384F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "6BEC01F1909451FA"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "560916C6FC988F34"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "25B8AC5414C73425"
+			rewards: [{
+				id: "631E0A38E8D9D885"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "7B9727182FF78E8E"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "5DD229C562532971"
+			rewards: [{
+				id: "17075A15F4DB7199"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "1004788B7056DAFC"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "1EF432D35FB0A682"
+			rewards: [{
+				id: "3D0F7E0E1C4A4CF2"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "4784FBD168756879"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:shulker_shell"
+			id: "58410A57C3759689"
+			rewards: [{
+				id: "307FF59194DA100E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "179AAD4696EDBCDD"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:creeper_head"
+			id: "4CB4D8EB6E457908"
+			rewards: [
+				{
+					id: "42B95978C9C69296"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 3
+					id: "02C8AE3905BBE6B7"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "52640313F6400425"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			icon: "creeperoverhaul:badlands_creeper_spawn_egg"
+			id: "04B51E228D117EA4"
+			rewards: [{
+				id: "7E498AA488AF9834"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:badlands_creeper"
+				icon: "creeperoverhaul:badlands_creeper_spawn_egg"
+				id: "21A97BC96E5D3493"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			icon: "creeperoverhaul:bamboo_creeper_spawn_egg"
+			id: "56A287D55942B7DA"
+			rewards: [{
+				id: "1534CB9464989B73"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:bamboo_creeper"
+				id: "7A685DAFB0429DBB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			icon: "creeperoverhaul:beach_creeper_spawn_egg"
+			id: "368191E53BF0E469"
+			rewards: [{
+				id: "64FA9685E61859E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:beach_creeper"
+				id: "600F97587DEE86DE"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			icon: "creeperoverhaul:cave_creeper_spawn_egg"
+			id: "274105084B750A23"
+			rewards: [{
+				id: "15B4935DF3EDF6E8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:cave_creeper"
+				id: "3133BB6BF6F53797"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			icon: "creeperoverhaul:dark_oak_creeper_spawn_egg"
+			id: "6722506CC62A74E2"
+			rewards: [{
+				id: "546EEAD18DAF1F21"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:dark_oak_creeper"
+				id: "3386FAD9E14208BE"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			icon: "creeperoverhaul:desert_creeper_spawn_egg"
+			id: "1F2644C009E73FAF"
+			rewards: [{
+				id: "7F9678776AFC1105"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:desert_creeper"
+				id: "6885888A5EA4AA4A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			icon: "creeperoverhaul:dripstone_creeper_spawn_egg"
+			id: "491B08993831C53C"
+			rewards: [{
+				id: "59558BBFA946B541"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:dripstone_creeper"
+				id: "00F56DA27F14B422"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			icon: "creeperoverhaul:hills_creeper_spawn_egg"
+			id: "1DD22281B3C1C294"
+			rewards: [{
+				id: "39335280D1CA71AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:hills_creeper"
+				id: "3FB584788DDCCEE4"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			icon: "creeperoverhaul:jungle_creeper_spawn_egg"
+			id: "5A6D62A51D6EE421"
+			rewards: [{
+				id: "5ED14936E0C604EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:jungle_creeper"
+				id: "74644DC07D7765D2"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			icon: "creeperoverhaul:mushroom_creeper_spawn_egg"
+			id: "1279CD583846F946"
+			rewards: [{
+				id: "04EF7912DBBBA1F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:mushroom_creeper"
+				id: "0F16FE9374C2EC15"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			icon: "creeperoverhaul:ocean_creeper_spawn_egg"
+			id: "65EC48616AFDF39E"
+			rewards: [{
+				id: "3E36F616FF3446A1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:ocean_creeper"
+				id: "6CD15312435AF05F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			icon: "creeperoverhaul:savannah_creeper_spawn_egg"
+			id: "3643285A3CE5BF9B"
+			rewards: [{
+				id: "6684BD3A5B46339C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:savannah_creeper"
+				id: "34BF0723707DC82A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			icon: "creeperoverhaul:snowy_creeper_spawn_egg"
+			id: "192D5E4A6CEDC10B"
+			rewards: [{
+				id: "28BC5B54F1218F9C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:snowy_creeper"
+				id: "3F374562BE4AC82B"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			icon: "creeperoverhaul:spruce_creeper_spawn_egg"
+			id: "2EF3C6B069A0043E"
+			rewards: [{
+				id: "65EE35B56CE8869A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:spruce_creeper"
+				id: "77F9CFFB67E32C6D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			icon: "creeperoverhaul:swamp_creeper_spawn_egg"
+			id: "3C59A323A80FBD74"
+			rewards: [{
+				id: "46D35122D483BB36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				entity: "creeperoverhaul:swamp_creeper"
+				id: "676E8D51BE231859"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			description: [
+				"This is an optional bounty board."
+				"Feel free to hunt everything, or don't."
+			]
+			id: "400EEDED9C4875B7"
+			rewards: [{
+				id: "5432D7E9C7341777"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76856C62511EB501"
+				title: "Bounty Board"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:piglin_head"
+			id: "5EE14510140AA67D"
+			rewards: [{
+				id: "4DEBDB28D58E8556"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "1F484596F962871E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:rotten_flesh"
+			id: "3AED6CB7A0AB9556"
+			rewards: [{
+				id: "0344FB660E16621B"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "017247C7C376F689"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			id: "04675C40B57FE004"
+			rewards: [
+				{
+					id: "11C38A2553C93522"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2EDDF5EA6547EBD1"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "65E54AAB7B18003A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "02BE9ADA56C2464E"
+			rewards: [
+				{
+					id: "2F730BF85187BC59"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361C6FAE816CC2EF"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "45C2B70EF445583C"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "56994264983CBD14"
+			rewards: [
+				{
+					id: "32B36DDD3B7C86EA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13C92D26A340CAF9"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0EF0FD3B74713DD3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "7CC1CCA058071EA3"
+			rewards: [
+				{
+					id: "2BE45182F0ABEE6A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "205DE51EE92F9201"
+					table_id: 2020134832960880164L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "58350A3203534D0C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "3D420E89C3100C4A"
+			rewards: [{
+				id: "352B6F6808DDD41D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:villager"
+				id: "417B7B3DA6B84C23"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "40A805FF7F59D52D"
+			rewards: [{
+				id: "1367536644E05FC1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:zombie_villager"
+				id: "10F2C52F19F55299"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:creeper_head"
+			id: "16175DA54C1E7658"
+			rewards: [
+				{
+					id: "114F20D873A7F83A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 32
+					id: "1A62C0B71E384F86"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "280F45FE7101099A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "3E6B34F4B054F7E9"
+			rewards: [
+				{
+					id: "32EC26FBC4AA9ABE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 20
+					id: "670F1FB5E57B06D5"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "3106A557A99759AB"
+					item: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "2381F2594FE5FD08"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "1126AB0D86F42C84"
+			rewards: [{
+				id: "62119D0B9C132D2A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "4EC75514A642886A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			icon: "supplementaries:enderman_head"
+			id: "44C77F80EF15ACA0"
+			rewards: [
+				{
+					id: "2DCF065F3E7D884F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "75DBF2AEFE373E6A"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "13772748BEE04470"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:blaze_powder"
+			id: "4F653901A8ADE726"
+			rewards: [
+				{
+					id: "0E983EDD8600164E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 12
+					id: "069F1B165D147A02"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7F69249A3865AB90"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:slime_block"
+			id: "16A65C382B30B75D"
+			rewards: [{
+				id: "528AF517D4FFCBCB"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "6465D6A700FB70A1"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:shulker_shell"
+			id: "4F24891FAFD3342D"
+			rewards: [{
+				id: "1BF3AD7D71F04607"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "7715B75FD7560BAA"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:piglin_head"
+			id: "73381A46729EB0CB"
+			rewards: [{
+				id: "656045B99767A17B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "024AA227F5E48D54"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:rotten_flesh"
+			id: "286D64ECB6BC159B"
+			rewards: [{
+				id: "48CB8B208D1AC9DC"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "403B0F4AAC39802E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			id: "669006A899BA5764"
+			rewards: [
+				{
+					id: "563B9A934B461610"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "05D3276DA08474BE"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "1D16E418F83FE146"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:spider_eye"
+			id: "667C89AFE7640FFB"
+			rewards: [
+				{
+					id: "5B3FCC9862FED4F5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "4D50BB5F5D2A902C"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "77F6A4999CE2CB9C"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:spider_eye"
+			id: "22B054AED7EF7BC7"
+			rewards: [
+				{
+					id: "3F59101261829FAE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 15
+					id: "3B06F34DB8FC526C"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "51B6BED375BB9C1B"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "15EC8FEA057436EC"
+			rewards: [{
+				id: "5BF46C6874DB60D6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "29DA39B7C1161F39"
+				type: "kill"
+				value: 5L
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			id: "38320CE0555157A9"
+			rewards: [{
+				id: "3777774F0BF2D369"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "49239C3DBAE178CE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "39CDC66EDB2DD606"
+			rewards: [{
+				id: "01EC56000ABF8666"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "58C202ADDB7901CC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			id: "7305F1266813AB38"
+			rewards: [{
+				id: "2D8398DD205CDC7C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "mowziesmobs:grottol"
+				id: "6C72A56AD123C126"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "1A9008913B3BA5D3"
+			rewards: [{
+				id: "335C3036678F9483"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "360F36C8435B0F62"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			id: "40540363F6F7305B"
+			rewards: [{
+				id: "43C3FC7A38356D5E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				id: "200A7A427D06E328"
+				type: "kill"
+				value: 5L
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "4B7E638D9ED5D56F"
+			rewards: [{
+				id: "0A832A121AD17CFD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthana"
+				id: "2E25938056F6DA8C"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			icon: "mowziesmobs:umvuthi_spawn_egg"
+			id: "20236EA59035B5C1"
+			rewards: [{
+				id: "53A9BF3E9BC20E1A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "16E636F55E90F2E5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			id: "6030B627E5B882C4"
+			rewards: [{
+				id: "54137F2DD3A6D898"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				id: "1F8DC932E97B8D59"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			icon: "minecraft:creeper_head"
+			id: "5A96C05EEA3C27FA"
+			rewards: [
+				{
+					id: "13F25F62AE17E6D8"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+				{
+					id: "3D436D85B3B2C4C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 64
+					id: "57B1784A168C8FF9"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "648CAC4B3B756AD2"
+				type: "kill"
+				value: 250L
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "2E52DDFDBF9F26BC"
+			rewards: [
+				{
+					id: "1299EBF1122E1904"
+					item: "minecraft:skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "66CC7ECD8DB42F11"
+					item: "minecraft:skeleton_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "31705F4D22230116"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 64
+					id: "079ECB8AF41266AA"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "4041927ECC097163"
+					item: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:luck"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "4970B2A191E7B15C"
+				type: "kill"
+				value: 250L
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "4CE4304C5665849C"
+			rewards: [
+				{
+					id: "098F0D175FD227C6"
+					item: "minecraft:zombie_head"
+					type: "item"
+				}
+				{
+					id: "7280F9AD11293AEB"
+					item: "minecraft:zombie_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "3CBE4D3073A61B42"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_head"
+				id: "326089BDD44234D3"
+				type: "kill"
+				value: 250L
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			icon: "supplementaries:enderman_head"
+			id: "66E36A4BFFFED20A"
+			rewards: [
+				{
+					id: "437E5447159EFF0E"
+					item: "minecraft:enderman_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2601C49116DDD2B7"
+					item: "supplementaries:enderman_head"
+					type: "item"
+				}
+				{
+					id: "35688D75C8C525CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "5B94017D5445D3EC"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "5A10EF92FE3547DE"
+				type: "kill"
+				value: 250L
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:spider_eye"
+			id: "3AD0ADE8BDAC1143"
+			rewards: [
+				{
+					id: "07FDBC98F8F59412"
+					item: "minecraft:spider_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "4EA1199BE659F582"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 64
+					id: "18A65F0ED82D8EB3"
+					item: "minecraft:spider_eye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "6CAF6C6EC7CB7598"
+				type: "kill"
+				value: 250L
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:slime_block"
+			id: "71417C512B781BAA"
+			rewards: [
+				{
+					id: "3A24714F8E320E59"
+					item: "minecraft:slime_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5A0B57976B3F91CB"
+					item: {
+						Count: 1
+						id: "create_sa:slime_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1436E2AAAC864370"
+					item: {
+						Count: 1
+						id: "create_sa:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "334F3918E368616A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "01813B64E4856246"
+				type: "kill"
+				value: 250L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:shulker_shell"
+			id: "24934C9F4089EADC"
+			rewards: [
+				{
+					id: "10B255434C576706"
+					item: "minecraft:shulker_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0BEE82D0BE4D9C0B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "1E177308A20B2F8A"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:piglin_head"
+			id: "35BBBDC1F76C4820"
+			rewards: [
+				{
+					id: "1DB5D08051B10CB1"
+					item: "minecraft:piglin_head"
+					type: "item"
+				}
+				{
+					id: "51CC55E4985E2DA4"
+					item: "minecraft:piglin_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "42C8184DECD8E562"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "343D5CF84979D693"
+					table_id: 6768958311133431536L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "063F6DEF7C63B450"
+				type: "kill"
+				value: 250L
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:rotten_flesh"
+			id: "0174E90316483F54"
+			rewards: [
+				{
+					id: "32871F9DD1AB0714"
+					item: "minecraft:zombified_piglin_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5340AC6A7FEAE3EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2898F4CDF2F3DDFC"
+					table_id: 6768958311133431536L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "0CA6A884D8087205"
+				type: "kill"
+				value: 250L
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:wither_skeleton_skull"
+			id: "58ECB4A9EDD510C9"
+			rewards: [
+				{
+					id: "73DF258D94C69FAC"
+					item: "minecraft:wither_skeleton_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "7154DD3F0EB3D49F"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "6AE137540302AEE8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "7BF95DB2708F8BDF"
+				type: "kill"
+				value: 250L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:blaze_powder"
+			id: "1CF14F3425054ACB"
+			rewards: [
+				{
+					id: "5C36C2F93F228A7B"
+					item: "minecraft:blaze_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5CC295F70D86B8F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "66319DC6128B4DE3"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 25
+					id: "25A782E31E9C69C3"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5EFEF1156F03CF1A"
+				type: "kill"
+				value: 250L
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "55DC5BBCC6C07121"
+			rewards: [
+				{
+					count: 4
+					id: "10BE4A3836C30128"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					id: "78C69CB7A8001D99"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "7F1956C2C32B7F90"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "45E20E226DE9BA15"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "619CC064DCA5EF5C"
+			rewards: [
+				{
+					id: "70FE1E9AD17DEED8"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "5A37BB152CB8CBCB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "379BA05CD7B60EA6"
+					item: "minecraft:wither_rose"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "0D168DDB281F789C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "2A5DD1E03AD56A61"
+			rewards: [
+				{
+					id: "1D30813380C5707E"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "3B6C255C1FF5C25E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "41BC4E11CF6A133A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "62A59B2B6A987F77"
+			rewards: [{
+				id: "54DCF09643F11D7E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "556EFDDE9C1F4F8A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			id: "6BE71D68DACF6110"
+			rewards: [{
+				id: "42531ADAE53493FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "14DBC244D4F6E3D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "5ABC91FCD2A2AF28"
+			rewards: [{
+				id: "58C709E5B5BF0BBF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "0DBD915989A3BA40"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			id: "70BAEDFF64338C5F"
+			rewards: [{
+				id: "3F2648311AEA1EAE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "2BDDFAE8F88899D5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			id: "48D397D74F8F5F4E"
+			rewards: [
+				{
+					id: "114AB9FB02DDC6D9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6EFF975FB04694C0"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_tear"
+				id: "6FD479DAF47CB1DB"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:ghast_tear"
+			id: "2FF7E51D8AAE28C6"
+			rewards: [
+				{
+					id: "3850491E11FF0DD8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 10
+					id: "05C786A6CAABD79B"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "351D46648BD16684"
+				type: "kill"
+				value: 50L
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:ghast_tear"
+			id: "59AB3F23C40D4CFA"
+			rewards: [
+				{
+					id: "741441B82942D2B5"
+					item: "minecraft:ghast_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "44EB60F7F5772E4F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 20
+					id: "02C7604CAAEE904D"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "6AAE6A7E582A5C34"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"04B51E228D117EA4"
+				"56A287D55942B7DA"
+				"368191E53BF0E469"
+				"274105084B750A23"
+				"4CB4D8EB6E457908"
+				"6722506CC62A74E2"
+				"1F2644C009E73FAF"
+				"491B08993831C53C"
+				"1DD22281B3C1C294"
+				"5A6D62A51D6EE421"
+				"1279CD583846F946"
+				"3643285A3CE5BF9B"
+				"192D5E4A6CEDC10B"
+				"2EF3C6B069A0043E"
+				"3C59A323A80FBD74"
+				"65EC48616AFDF39E"
+			]
+			id: "5749205E5D98F027"
+			rewards: [
+				{
+					id: "2ABB3F3C9DF2E9F0"
+					item: "minecraft:creeper_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "4800C783062B4DF6"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76B0EC61F4450035"
+				title: "Gotta Kill'em All"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			id: "11293E99B612BFC4"
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "12292280A2F1C1ED"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E29BA1872D3FC91"
+			rewards: [{
+				id: "6CDA4A178F94C032"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "319CC87BB6B82512"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59BF3928D8564D55"
+			rewards: [{
+				id: "725166BB30926A27"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "7695329AE3F47F02"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "74303783E512F5C3"
+			rewards: [{
+				id: "722694C7419CAD4A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "5E8A0918BDED473D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:piglin_head"
+			id: "50DEA5802B5D57E2"
+			rewards: [
+				{
+					id: "7FE027968ADECA5C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "1A4D187DC26914B9"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "2FECF3BD050190A5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "66C0C93C39C50E41"
+			rewards: [{
+				id: "7EF291B6E0053343"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "248E799FE91A5142"
+				type: "kill"
+				value: 50L
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50D943916C3DB2EE"
+			rewards: [
+				{
+					id: "0970067B5B598EA6"
+					item: "minecraft:pillager_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7D8F1187CEBE3015"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "3AB8083D423C7FD1"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "3C03590FE3C3B6F3"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "457FC34C68C802D7"
+			rewards: [{
+				id: "43254F5DBAD85C8B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "66BAEFD3F310DFD6"
+				type: "kill"
+				value: 25L
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "constructionwand:stone_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "289A88F4FBE858A7"
+			rewards: [
+				{
+					id: "3FA22E23DA6B60F8"
+					item: "minecraft:evoker_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "4B16884840DB2359"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "64160031248F458C"
+					item: "friendsandfoes:totem_of_illusion"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "71A4A1B86A5DAC13"
+				type: "kill"
+				value: 50L
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B4386B96B568EBB"
+			rewards: [{
+				id: "76D577EC55C83F8E"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "3CFF41BC0ABCA793"
+				type: "kill"
+				value: 25L
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4696DCF1E3116A4B"
+			rewards: [
+				{
+					id: "2506479A9008E559"
+					item: "minecraft:vindicator_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "341C3E4E6FCF142A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "17D1ED8E09E30E07"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "38DDBC6BF4087924"
+				type: "kill"
+				value: 50L
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:piglin_head"
+			id: "21AEBBB30DD68F4C"
+			rewards: [
+				{
+					id: "1A84552955739BBD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "28418FFB1DB13FCF"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "7987B58362644DFF"
+				type: "kill"
+				value: 25L
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:piglin_head"
+			id: "6BEBD32ED9CA2C18"
+			rewards: [
+				{
+					id: "5222FF73916CA6F4"
+					item: "minecraft:piglin_brute_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "07094D7D38357AA3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3750F0F396D63741"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "410B1EDC7C0EB83F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3D420E89C3100C4A"
+				"40A805FF7F59D52D"
+				"11293E99B612BFC4"
+			]
+			id: "5709690AEAFFF515"
+			rewards: [
+				{
+					id: "57F525CCF9769DFA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "164F9D7784F711F5"
+					item: "minecraft:villager_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "799B964B636864C1"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19B70E29191C70EF"
+				title: "Hero of the... village?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"25B8AC5414C73425"
+				"1EF432D35FB0A682"
+				"5DD229C562532971"
+			]
+			id: "43435C5ADB74C95F"
+			rewards: [
+				{
+					id: "799E79F8EAFC01AC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67ED7E497CE2EB1C"
+					item: "minecraft:chicken_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7271375FA81F99FD"
+					item: "minecraft:cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7D853D33397D015C"
+					item: "minecraft:sheep_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0561112B252DBAB0"
+				title: "I'm just a farmer."
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	title: "Bounty Board"
+}
