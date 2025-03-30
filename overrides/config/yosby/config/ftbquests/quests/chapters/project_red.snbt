@@ -2,9 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "project_red"
-	group: ""
+	group: "45BF2C62DB334C89"
+	icon: "projectred_transmission:red_insulated_wire"
 	id: "0424F7A590D57BC1"
-	order_index: 15
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -111,11 +112,12 @@
 			dependencies: ["1B3810C8F84858D7"]
 			id: "70D497F507505248"
 			rewards: [{
-				count: 64
+				count: 32
 				id: "7E718327145CC913"
 				item: "minecraft:redstone"
 				type: "item"
 			}]
+			subtitle: "Craft a red alloy wire, the way redstone was meant to be!"
 			tasks: [{
 				id: "00FF182F2BBD8B87"
 				item: "projectred_transmission:red_alloy_wire"
@@ -145,11 +147,19 @@
 		{
 			dependencies: ["70D497F507505248"]
 			id: "1F122A8120CCBB69"
-			rewards: [{
-				id: "55A82BAF991866C8"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "55A82BAF991866C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1417EC660995F15C"
+					table_id: 5320903358926637708L
+					type: "random"
+				}
+			]
 			subtitle: "Create an electrotine generator."
 			tasks: [{
 				id: "03F4F07C8D33F84D"
@@ -158,6 +168,106 @@
 			}]
 			x: 1.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["1B3810C8F84858D7"]
+			id: "41B59E1DF2A7C680"
+			rewards: [
+				{
+					id: "153BFA8A2504E9B5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "2EA407CA3FB370D7"
+					item: "minecraft:smooth_stone"
+					type: "item"
+				}
+			]
+			subtitle: "No more complicated contraptions just to make a pulse."
+			tasks: [{
+				id: "3ADA9E43098EACC2"
+				item: "projectred_integration:timer_gate"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B3810C8F84858D7"]
+			id: "139E779A56B30272"
+			rewards: [
+				{
+					id: "1929CECCAC36C329"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "3380D8AC94D6473F"
+					item: "minecraft:smooth_stone"
+					type: "item"
+				}
+			]
+			subtitle: "A basic logic gate."
+			tasks: [{
+				id: "343C5D0388E47053"
+				item: "projectred_integration:or_gate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B3810C8F84858D7"]
+			id: "1028A735B8D9A0C4"
+			rewards: [
+				{
+					count: 16
+					id: "60CF7A6989F4BBE1"
+					item: "minecraft:smooth_stone"
+					type: "item"
+				}
+				{
+					id: "6FDBDEE65677052B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "A basic logic gate."
+			tasks: [{
+				id: "2ABC10E657CF9D49"
+				item: "projectred_integration:and_gate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B3810C8F84858D7"]
+			id: "139513BB3EF2B39C"
+			rewards: [
+				{
+					id: "053E6FD4EE5C7EEA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 16
+					id: "527752E809437A04"
+					item: "minecraft:smooth_stone"
+					type: "item"
+				}
+			]
+			subtitle: "A basic logic gate."
+			tasks: [{
+				id: "4F52F49ACF872700"
+				item: "projectred_integration:not_gate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "Project Red"

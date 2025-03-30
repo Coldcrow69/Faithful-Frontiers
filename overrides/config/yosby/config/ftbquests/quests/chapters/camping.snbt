@@ -2,20 +2,29 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "camping"
-	group: ""
+	group: "22A2F4EE94456BFF"
 	icon: "minecraft:campfire"
 	id: "5D566B7D2B52C248"
-	order_index: 9
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3A7E75805702683D"]
 			id: "1B17DD160647D1BD"
-			rewards: [{
-				id: "1911CC8855C92EBD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			subtitle: "Campfires are not only vibey, but they heal you and prevents mobs from spawning."
+			rewards: [
+				{
+					id: "1911CC8855C92EBD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "522F8720BA15F8EF"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			subtitle: "Campfires heal you when nearby, and prevent mobs from spawning in a 64 block radius."
 			tasks: [{
 				id: "0BC70C1BCBDAB7A0"
 				item: "minecraft:campfire"
@@ -25,7 +34,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1B17DD160647D1BD"]
 			id: "3A7E75805702683D"
 			rewards: [{
 				id: "571B99B833316D80"
@@ -38,7 +46,7 @@
 				item: "sleeping_bags:red_sleeping_bag"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -2.0d
 			y: 0.0d
 		}
 	]

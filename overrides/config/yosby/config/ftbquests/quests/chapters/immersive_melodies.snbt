@@ -2,17 +2,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "immersive_melodies"
-	group: ""
+	group: "429F22EB024EE771"
 	icon: {
 		Count: 1
 		id: "immersive_melodies:lute"
 		tag: { }
 	}
 	id: "17753E3737867566"
-	order_index: 11
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6A0E24C5A4A191E9"]
 			id: "3554643EC40E2628"
 			rewards: [{
 				id: "5170E257949B1214"
@@ -33,6 +34,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["6A0E24C5A4A191E9"]
 			id: "0C7F964DE9F7F3EB"
 			rewards: [{
 				id: "778BBDAF0BCD4B7B"
@@ -53,6 +55,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["6A0E24C5A4A191E9"]
 			id: "4433112DB88D439B"
 			rewards: [{
 				id: "5EF286F600780316"
@@ -71,6 +74,22 @@
 			}]
 			x: -1.0d
 			y: 0.5d
+		}
+		{
+			id: "6A0E24C5A4A191E9"
+			rewards: [{
+				id: "241DBCD760743F95"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Create musical instruments and play real tunes! Supports MIDI files."
+			tasks: [{
+				id: "79BE8E18DC917F78"
+				title: "Immersive Melodies"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
 		}
 	]
 	title: "Immersive Melodies"

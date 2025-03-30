@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "exposure"
-	group: ""
+	group: "429F22EB024EE771"
 	icon: "exposure:camera"
 	id: "35E3117EC9C6B6DC"
-	order_index: 8
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -56,6 +56,17 @@
 					count: 16
 					id: "0D5CC9D7F2E329DE"
 					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "5F8932303240C141"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
 					type: "item"
 				}
 			]
