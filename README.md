@@ -48,6 +48,8 @@ Below are some mods you should be aware of when playing Faithful Frontiers. Thes
 ## 🎥 Modpack Contributors  
 - Slowedpath  
 - aSnerf
+
+## 🎥 Modpack Play Testers
 - Sageisatthelimit
 - Raine9399
 
