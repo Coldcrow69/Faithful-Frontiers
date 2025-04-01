@@ -1,0 +1,19 @@
+{
+	id: "2F4458156715DEFF"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 32, item: "minecraft:raw_gold" }
+		{ count: 64, item: "minecraft:raw_iron" }
+		{ count: 64, item: "minecraft:raw_copper" }
+		{ count: 32, item: "minecraft:emerald" }
+		{ count: 16, item: "minecraft:diamond" }
+		{ count: 128, item: "minecraft:coal" }
+		{ count: 64, item: "projectred_core:electrotine_dust" }
+		{ count: 128, item: "minecraft:redstone" }
+		{ count: 64, item: "minecraft:lapis_lazuli" }
+		{ count: 64, item: "create:raw_zinc" }
+		{ count: 32, item: "create:brass_ingot" }
+	]
+	title: "Materials Pack"
+}
