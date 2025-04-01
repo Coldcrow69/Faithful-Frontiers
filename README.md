@@ -21,23 +21,8 @@ Faithful Frontiers is a vibes-based faithful expansion to Minecraft, focused on 
 ## 🖥️ Installation
 
 1. Install the **CurseForge App**.
-2. Search for **Faithful Frontiers** or download it from our project page: **[CurseForge Placeholder Link]**
-3. Install, modify memory parameters, and launch.
-
-OR
-
-1. Download the latest release file from our GitHub repo (zip format).
-2. Import the zip file as a modpack in CurseForge.
-
----
-
-# 📦 Faithful Frontiers Highlighted Mods
-
-Below are some mods you should be aware of when playing Faithful Frontiers. These are only a small portion of the total mods included, but the player benefits from knowing about these in particular.
-
-| **Mod Name** | **Description** |
-|--------------|-----------------|
-| **Check back later!** | Mod highlights currently under construction as we change mods in the pack rapidly. |
+2. Search for **Faithful Frontiers**
+3. Install and launch.
 
 ---
 
