@@ -152,7 +152,6 @@
 			tasks: [{
 				icon: "minecraft:wither_skeleton_skull"
 				id: "17EC81F4EC30012A"
-				optional_task: true
 				structure: "minecraft:mineshaft"
 				title: "Find a Nether Fortress"
 				type: "structure"
@@ -180,7 +179,6 @@
 			tasks: [{
 				icon: "minecraft:netherite_upgrade_smithing_template"
 				id: "431C07D3FEE64DF0"
-				optional_task: true
 				structure: "minecraft:bastion_remnant"
 				title: "Find a Bastion"
 				type: "structure"
@@ -259,7 +257,6 @@
 			tasks: [{
 				icon: "smallships:oak_brigg"
 				id: "58C301F145FE5C6B"
-				optional_task: true
 				structure: "minecraft:mineshaft"
 				title: "Find a Ocean Monument"
 				type: "structure"
@@ -299,7 +296,6 @@
 					}
 				}
 				id: "502EEB5487A8E751"
-				optional_task: true
 				title: "Kill a Elder Guardian"
 				type: "kill"
 				value: 1L
@@ -333,7 +329,6 @@
 			tasks: [{
 				icon: "minecraft:recovery_compass"
 				id: "44EE1CAF5B16C760"
-				optional_task: true
 				structure: "minecraft:ancient_city"
 				title: "Find a Ancient City"
 				type: "structure"
@@ -376,7 +371,6 @@
 				entity: "minecraft:warden"
 				icon: "minecraft:sculk_shrieker"
 				id: "7CAF4C3F4E191CAF"
-				optional_task: true
 				title: "Kill a Warden"
 				type: "kill"
 				value: 1L
@@ -565,7 +559,6 @@
 				entity: "minecraft:wither"
 				icon: "minecraft:nether_star"
 				id: "2F01EADA69909E1C"
-				optional_task: true
 				title: "Kill a Wither"
 				type: "kill"
 				value: 1L

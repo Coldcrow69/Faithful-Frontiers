@@ -69,7 +69,6 @@
 				biome: "aether:skyroot_forest"
 				icon: "aether:skyroot_leaves"
 				id: "1F9FBB75898F1F8E"
-				optional_task: true
 				title: "Skyroot Forest"
 				type: "biome"
 			}]
@@ -89,7 +88,6 @@
 				biome: "aether:skyroot_grove"
 				icon: "aether:skyroot_sapling"
 				id: "59AFE9C3D7DCFC39"
-				optional_task: true
 				title: "Skyroot Grove"
 				type: "biome"
 			}]
@@ -109,7 +107,6 @@
 				biome: "aether:skyroot_meadow"
 				icon: "aether:skyroot_log"
 				id: "3DDF58386F73F2A8"
-				optional_task: true
 				title: "Skyroot Meadow"
 				type: "biome"
 			}]
@@ -129,7 +126,6 @@
 				biome: "aether:skyroot_woodland"
 				icon: "aether:stripped_skyroot_log"
 				id: "0D7AAC4312B18400"
-				optional_task: true
 				title: "Skyroot Woodland"
 				type: "biome"
 			}]
@@ -149,7 +145,6 @@
 				biome: "deeperdarker:blooming_caverns"
 				icon: "deeperdarker:blooming_sculk_stone"
 				id: "564DF9FCB84FDE56"
-				optional_task: true
 				title: "Blooming Caverns"
 				type: "biome"
 			}]
@@ -169,7 +164,6 @@
 				biome: "deeperdarker:deeplands"
 				icon: "deeperdarker:infested_sculk"
 				id: "1F61A5C0E1B82FB5"
-				optional_task: true
 				title: "Deeplands"
 				type: "biome"
 			}]
@@ -189,7 +183,6 @@
 				biome: "deeperdarker:echoing_forest"
 				icon: "deeperdarker:echo_leaves"
 				id: "0828C77EB986A4FB"
-				optional_task: true
 				title: "Echoing Forest"
 				type: "biome"
 			}]
@@ -209,7 +202,6 @@
 				biome: "deeperdarker:overcast_columns"
 				icon: "deeperdarker:sculk_gleam"
 				id: "36F36D41BACDFE92"
-				optional_task: true
 				title: "Overcast Columns"
 				type: "biome"
 			}]
@@ -649,7 +641,6 @@
 				biome: "minecraft:the_void"
 				icon: "minecraft:bedrock"
 				id: "136230ADCC00E2D0"
-				optional_task: true
 				title: "The Void"
 				type: "biome"
 			}]
