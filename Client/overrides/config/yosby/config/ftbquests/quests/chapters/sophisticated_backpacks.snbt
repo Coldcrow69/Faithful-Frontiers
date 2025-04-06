@@ -36,23 +36,6 @@
 		{
 			dependencies: ["3FBA05936F719D9A"]
 			description: ["Upgrade to your backpack!"]
-			id: "328D8AC248CE648D"
-			rewards: [{
-				id: "0B3D9570BC80367E"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "6356499A017BE565"
-				item: "sophisticatedbackpacks:copper_backpack"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["328D8AC248CE648D"]
-			description: ["Upgrade to your backpack!"]
 			id: "660241245A4E801D"
 			rewards: [{
 				id: "10A001F2C4ED30E5"
@@ -65,7 +48,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["660241245A4E801D"]
@@ -99,7 +82,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["211121BBE147456C"]
@@ -116,7 +99,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3FBA05936F719D9A"]
@@ -132,7 +115,7 @@
 				item: "sophisticatedbackpacks:upgrade_base"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -152,7 +135,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 	]
