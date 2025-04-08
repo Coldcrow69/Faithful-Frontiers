@@ -152,7 +152,7 @@
 			tasks: [{
 				icon: "minecraft:wither_skeleton_skull"
 				id: "17EC81F4EC30012A"
-				structure: "minecraft:mineshaft"
+				structure: "betterfortresses:fortress"
 				title: "Find a Nether Fortress"
 				type: "structure"
 			}]
