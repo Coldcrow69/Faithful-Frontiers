@@ -676,7 +676,7 @@
 			}]
 			subtitle: "Visit the End Midlands"
 			tasks: [{
-				biome: "minecraft:plains"
+				biome: "minecraft:end_midlands"
 				icon: "minecraft:end_stone"
 				id: "2C1E370FC6CB78F1"
 				title: "End Midlands"
