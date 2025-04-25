@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "only_excavators"
+	group: "0BF39090891F2F9A"
+	icon: {
+		Count: 1
+		id: "onlyexcavators:diamond_excavator"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "116E243B2CB086CF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "454D3EC3B783BC83"
+			rewards: [{
+				id: "41F1632C0C9666B1"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Excavators dig in a 3x3x1 pattern."
+			tasks: [{
+				id: "25849691467CFA8A"
+				title: "Only Excavators"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["454D3EC3B783BC83"]
+			id: "65762B4AD643D133"
+			rewards: [{
+				id: "2AF7A37D7D42BD68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft a wooden excavator."
+			tasks: [{
+				id: "248436267C774510"
+				item: {
+					Count: 1
+					id: "onlyexcavators:wooden_excavator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65762B4AD643D133"]
+			id: "427689F951C23F35"
+			rewards: [{
+				id: "7A41F32E24BDF935"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft a stone excavator."
+			tasks: [{
+				id: "3966019663C74160"
+				item: {
+					Count: 1
+					id: "onlyexcavators:stone_excavator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["427689F951C23F35"]
+			id: "4BEE6BA2765655D4"
+			rewards: [{
+				id: "059A15A61C4BC0F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Craft a iron excavator."
+			tasks: [{
+				id: "78B0BE29C7815CBB"
+				item: {
+					Count: 1
+					id: "onlyexcavators:iron_excavator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BEE6BA2765655D4"]
+			id: "1983ECD7D247EDC7"
+			rewards: [{
+				id: "19C1A9BFB8BCDFBD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a diamond excavator."
+			tasks: [{
+				id: "4C5544DA5079A0C7"
+				item: {
+					Count: 1
+					id: "onlyexcavators:diamond_excavator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1983ECD7D247EDC7"]
+			id: "08591EFDE21E817F"
+			rewards: [{
+				id: "3319D8E0D142F811"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Craft the ultimate excavator."
+			tasks: [{
+				id: "50ED8C3913E48193"
+				item: {
+					Count: 1
+					id: "onlyexcavators:netherite_excavator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	title: "Only Excavators"
+}
