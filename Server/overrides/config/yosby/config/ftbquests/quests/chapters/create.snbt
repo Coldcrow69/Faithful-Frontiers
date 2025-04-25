@@ -31,7 +31,6 @@
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
-			description: [""]
 			id: "0F16498769DFB3B0"
 			rewards: [
 				{
@@ -46,8 +45,8 @@
 					type: "random"
 				}
 			]
+			subtitle: "A harder rock."
 			tasks: [{
-				count: 16L
 				id: "5D2B9139C49F5ABA"
 				item: "create:andesite_alloy"
 				type: "item"
@@ -57,15 +56,14 @@
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
-			description: ["The shaft is used to connect and apply rotation to mechanisms."]
 			id: "5B36DE3826F26963"
 			rewards: [{
 				id: "1D9A8988608D6FF2"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Your andesite shaft is so smooth step bro..."
 			tasks: [{
-				count: 8L
 				id: "2F89C6C2CD322B51"
 				item: "create:shaft"
 				type: "item"
@@ -75,18 +73,14 @@
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
-			description: [
-				"Cogwheels can interact with machines and large cogwheels."
-				"They can apply their roation via interlocking."
-			]
 			id: "3E5E0C768038CDF4"
 			rewards: [{
 				id: "2255B332408A2218"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Get rotated, idiot."
 			tasks: [{
-				count: 4L
 				id: "68F2BD699AADA753"
 				item: "create:cogwheel"
 				type: "item"
@@ -96,15 +90,14 @@
 		}
 		{
 			dependencies: ["3E5E0C768038CDF4"]
-			description: ["Large cogwheels can do the same as small cogs."]
 			id: "23A9617F183C4EB1"
 			rewards: [{
 				id: "1C14F96B1E46C0E6"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "Gear ratios for days."
 			tasks: [{
-				count: 4L
 				id: "3E2A4428BDE92738"
 				item: "create:large_cogwheel"
 				type: "item"
@@ -114,7 +107,6 @@
 		}
 		{
 			dependencies: ["23A9617F183C4EB1"]
-			description: ["Your basic roational energy creation."]
 			id: "1AC0B7934F275EDE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -122,6 +114,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "The heavy lifters of SU generation."
 			tasks: [{
 				id: "35709DE2871F0CED"
 				item: "create:water_wheel"
@@ -132,16 +125,13 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: [
-				"This encased fan when given rotation will produce air forces."
-				"Used for item proccessing, moving entities/items."
-			]
 			id: "1E9B2D814F50A265"
 			rewards: [{
 				id: "7856A7B950345EEE"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "Blow me."
 			tasks: [{
 				id: "1A4B96C7C821174E"
 				item: "create:encased_fan"
@@ -152,13 +142,13 @@
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
-			description: [""]
 			id: "4285510271B5223D"
 			rewards: [{
 				id: "798F1BFEB0CD40A4"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Change the rotation and direction of your shafts, all in one!"
 			tasks: [{
 				id: "1840DB80F48921E2"
 				item: "create:gearbox"
@@ -169,7 +159,6 @@
 		}
 		{
 			dependencies: ["4285510271B5223D"]
-			description: [""]
 			id: "2BB3DB19D5EFC7E2"
 			rewards: [
 				{
@@ -184,6 +173,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Coming in clutch."
 			tasks: [{
 				id: "54F14BE619292D1D"
 				item: "create:clutch"
@@ -194,13 +184,13 @@
 		}
 		{
 			dependencies: ["4285510271B5223D"]
-			description: [""]
 			id: "67A46ED73E488CEE"
 			rewards: [{
 				id: "0AC0455451E5B931"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "Put it in reverse!"
 			tasks: [{
 				id: "0CE491535E6FA50B"
 				item: "create:gearshift"
@@ -211,13 +201,13 @@
 		}
 		{
 			dependencies: ["67A46ED73E488CEE"]
-			description: [""]
 			id: "7F8E50FA436DB4E6"
 			rewards: [{
 				id: "2F79FD29B3C0B775"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+			subtitle: "Simply move SU from one point to another."
 			tasks: [{
 				id: "1674E46511507301"
 				item: "create:encased_chain_drive"
@@ -228,7 +218,6 @@
 		}
 		{
 			dependencies: ["7F8E50FA436DB4E6"]
-			description: [""]
 			id: "54EC1C7FC1DA9107"
 			rewards: [
 				{
@@ -243,6 +232,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "This bad boy can fit so many gears in it."
 			tasks: [{
 				id: "115F81D0A661F71F"
 				item: "create:adjustable_chain_gearshift"
@@ -253,7 +243,6 @@
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
-			description: [""]
 			id: "2D41B04C75FA02BC"
 			rewards: [
 				{
@@ -268,6 +257,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Bonk!"
 			tasks: [{
 				id: "52136CB29F02E923"
 				item: "create:mechanical_press"
@@ -278,10 +268,6 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: [
-				"The mechanical mixer is used for mixing and shapeless recipes."
-				"Place above a basin with a 1 block gap."
-			]
 			id: "5DC892BA79EB52EC"
 			rewards: [
 				{
@@ -296,6 +282,7 @@
 					xp_levels: 2
 				}
 			]
+			subtitle: "Automate shapeless recipes."
 			tasks: [{
 				id: "057EDA1FF37AE35E"
 				item: "create:mechanical_mixer"
@@ -306,13 +293,13 @@
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
-			description: ["Used with the mechanical mixer."]
 			id: "75CBB5BD8C1DFEA1"
 			rewards: [{
 				id: "111F3B5124C730B2"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "Like a cauldron, but more useful."
 			tasks: [{
 				id: "56DBF4356117F26A"
 				item: "create:basin"
@@ -323,7 +310,6 @@
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
-			description: [""]
 			id: "29917E6196649F5D"
 			rewards: [{
 				id: "52E599BC5D726277"
@@ -341,7 +327,6 @@
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
-			description: [""]
 			id: "48BE7DAC5082044D"
 			rewards: [{
 				id: "730CB5F3D78AE08E"
@@ -359,7 +344,6 @@
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
-			description: [""]
 			id: "09936F8FCEA72C5C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -367,6 +351,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Contraptions... Assemble!"
 			tasks: [{
 				id: "15BA4109324B4A44"
 				item: "create:cart_assembler"
@@ -377,13 +362,13 @@
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
-			description: [""]
 			id: "51EA6B1452883AB2"
 			rewards: [{
 				id: "2A6B5FA112C0787E"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "You know it's grippy."
 			tasks: [{
 				id: "4A80AC1DE4002191"
 				item: "create:linear_chassis"
@@ -394,7 +379,6 @@
 		}
 		{
 			dependencies: ["51EA6B1452883AB2"]
-			description: [""]
 			id: "459BA85E48B343AE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -402,6 +386,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "It's grippy AND it rotates."
 			tasks: [{
 				id: "3598B8EDD5834F92"
 				item: "create:radial_chassis"
@@ -412,7 +397,6 @@
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
-			description: [""]
 			id: "76CBFA38D021AC95"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -420,6 +404,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "It fricken wimdy"
 			tasks: [{
 				id: "3652E21F6AD6D33F"
 				item: "create:white_sail"
@@ -430,7 +415,6 @@
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
-			description: [""]
 			id: "3029E1E133B91ED8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -438,6 +422,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Surely one is enough... right?"
 			tasks: [{
 				id: "072131C19C185896"
 				item: "create:mechanical_drill"
@@ -448,7 +433,6 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: [""]
 			id: "72DCE154E1714890"
 			rewards: [
 				{
@@ -463,6 +447,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Chop the logs, strip the logs, make it rain."
 			tasks: [{
 				id: "36C1D75275CE2AAB"
 				item: "create:mechanical_saw"
@@ -473,7 +458,6 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: ["The deployer simulates usage like a player."]
 			id: "3314FBC4FEAE1D08"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -481,6 +465,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Automate the crafting part of Minecraft."
 			tasks: [{
 				id: "79D2F12337D1F637"
 				item: "create:deployer"
@@ -491,7 +476,6 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: [""]
 			id: "4C31649D721F76B5"
 			rewards: [
 				{
@@ -506,6 +490,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Farming Simulator 2025."
 			tasks: [{
 				id: "1357FF84B9B133C4"
 				item: "create:mechanical_harvester"
@@ -516,13 +501,13 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: [""]
 			id: "0759CA52EECF3B49"
 			rewards: [{
 				id: "3057CE4BC1C714CE"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "Don't confuse this one with a harvester."
 			tasks: [{
 				id: "7B9B459AAB9F6483"
 				item: "create:mechanical_plough"
@@ -533,7 +518,6 @@
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
-			description: [""]
 			id: "17885C2DE986F1BD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -541,6 +525,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Encase everything"
 			tasks: [{
 				id: "0341E5F9B7361D1F"
 				item: "create:andesite_casing"
@@ -551,7 +536,6 @@
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
-			description: [""]
 			id: "48EA6D9923E38B71"
 			rewards: [
 				{
@@ -566,6 +550,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Aesthetic as heck."
 			tasks: [{
 				id: "23E40F6D58658887"
 				item: "create:brass_casing"
@@ -576,7 +561,6 @@
 		}
 		{
 			dependencies: ["2D41B04C75FA02BC"]
-			description: [""]
 			id: "3F663416E824720C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -584,6 +568,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "It's fluid time baby."
 			tasks: [{
 				id: "7FE62F264B4FA5DE"
 				item: "create:copper_casing"
@@ -594,13 +579,13 @@
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
-			description: [""]
 			id: "47A6769B6BF1A46D"
 			rewards: [{
 				id: "2F90F188894E4FB8"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "The base I/O for Create."
 			tasks: [{
 				id: "5CB1191F8F7BBAA4"
 				item: "create:andesite_funnel"
@@ -611,7 +596,6 @@
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
-			description: [""]
 			id: "495B0CC178B4CFA9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -619,6 +603,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Better funnels!"
 			tasks: [{
 				id: "1C5B4D14826937BB"
 				item: "create:brass_funnel"
@@ -629,7 +614,6 @@
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
-			description: [""]
 			id: "7C8CDD259495A31A"
 			rewards: [
 				{
@@ -644,6 +628,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Like a funnel, but more, tunnely."
 			tasks: [{
 				id: "07162DA2FD7B0E05"
 				item: "create:andesite_tunnel"
@@ -654,13 +639,13 @@
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
-			description: [""]
 			id: "78656C89EEE80DB5"
 			rewards: [{
 				id: "47A00D344999807B"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "Tunnels, now with filtering!"
 			tasks: [{
 				id: "688E14A6938EBEF7"
 				item: "create:brass_tunnel"
@@ -671,7 +656,6 @@
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
-			description: [""]
 			id: "7F0D59EC1573FDC0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -679,6 +663,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Hold items while theyre being worked on."
 			tasks: [{
 				id: "7EFB9500BBDD745C"
 				item: "create:depot"
@@ -689,13 +674,13 @@
 		}
 		{
 			dependencies: ["2D41B04C75FA02BC"]
-			description: [""]
 			id: "3D2A03EB2B91E9C1"
 			rewards: [{
 				id: "04C966F14DBB3C17"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Better hoppers."
 			tasks: [{
 				id: "105F8859D59964C4"
 				item: "create:chute"
@@ -706,7 +691,6 @@
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
-			description: [""]
 			id: "4F95F00ED78FBAB9"
 			rewards: [{
 				id: "54D0614A42EC52A2"
@@ -724,7 +708,6 @@
 		}
 		{
 			dependencies: ["0818D7CB870874A1"]
-			description: ["Used in machines for create."]
 			id: "610DEC4FC4FBB63E"
 			rewards: [
 				{
@@ -739,8 +722,8 @@
 					type: "random"
 				}
 			]
+			subtitle: "We... are the Crystal Gems!"
 			tasks: [{
-				count: 4L
 				id: "3BC40DF423178031"
 				item: "create:polished_rose_quartz"
 				type: "item"
@@ -751,7 +734,6 @@
 		}
 		{
 			dependencies: ["48EA6D9923E38B71"]
-			description: ["Mechanical crafters are used for large scaling crafting in Create."]
 			id: "4194397DFD0199C2"
 			rewards: [
 				{
@@ -766,6 +748,7 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "A bigger crafting grid."
 			tasks: [{
 				id: "65C6E83AF17405E0"
 				item: "create:mechanical_crafter"
@@ -776,13 +759,13 @@
 		}
 		{
 			dependencies: ["17885C2DE986F1BD"]
-			description: [""]
 			id: "75B14A09FE39EDDA"
 			rewards: [{
 				id: "42D093E3152857AC"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Now we're moving! "
 			tasks: [{
 				id: "7DA78C3A582368E2"
 				item: "create:gantry_carriage"
@@ -793,13 +776,13 @@
 		}
 		{
 			dependencies: ["7F0D59EC1573FDC0"]
-			description: [""]
 			id: "4EA4EDD5A7923F98"
 			rewards: [{
 				id: "096759F7F851F9A4"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "Probably not the most efficient way to move things, but it's cool."
 			tasks: [{
 				id: "34313AA5D327317C"
 				item: "create:weighted_ejector"
@@ -810,7 +793,6 @@
 		}
 		{
 			dependencies: ["3D2A03EB2B91E9C1"]
-			description: [""]
 			id: "7EEEEDD5FF31ACD3"
 			rewards: [
 				{
@@ -825,6 +807,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Even better better hoppers."
 			tasks: [{
 				id: "37EE09651ED58F6F"
 				item: "create:smart_chute"
@@ -835,13 +818,13 @@
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
-			description: [""]
 			id: "0CF69DBA9573A7B3"
 			rewards: [{
 				id: "35DCC6CB7C472F17"
 				item: "create:schematic_and_quill"
 				type: "item"
 			}]
+			subtitle: "Create schematics for use in the schematicannon."
 			tasks: [{
 				id: "0FB1E9BD14FE8EF8"
 				item: "create:schematic_table"
@@ -852,7 +835,6 @@
 		}
 		{
 			dependencies: ["0CF69DBA9573A7B3"]
-			description: [""]
 			id: "7D67058592EE5958"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -860,6 +842,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Automate complex builds with copy paste."
 			tasks: [{
 				id: "5D989C876E9B8AA5"
 				item: "create:schematicannon"
@@ -870,7 +853,6 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: [""]
 			id: "24E658BA47367A44"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -878,6 +860,7 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Uppies!"
 			tasks: [{
 				id: "0674C07C7DE332A9"
 				item: "create:rope_pulley"
@@ -888,7 +871,6 @@
 		}
 		{
 			dependencies: ["3F663416E824720C"]
-			description: [""]
 			id: "1C2309DB4B890E71"
 			rewards: [
 				{
@@ -903,6 +885,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Fill em' up, dump em' out."
 			tasks: [{
 				id: "6772D04457414991"
 				item: "create:spout"
@@ -913,13 +896,13 @@
 		}
 		{
 			dependencies: ["3F663416E824720C"]
-			description: [""]
 			id: "77382D4114E901CB"
 			rewards: [{
 				id: "158B9C44F52392EE"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "Slingin' hose."
 			tasks: [{
 				id: "739701B00C0F8A7B"
 				item: "create:hose_pulley"
@@ -936,6 +919,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Extend your pistons to new heights."
 			tasks: [{
 				id: "473DA14538E1B94C"
 				item: "create:piston_extension_pole"
@@ -946,13 +930,13 @@
 		}
 		{
 			dependencies: ["3F663416E824720C"]
-			description: [""]
 			id: "71B1B53A03A16296"
 			rewards: [{
 				id: "351CAC3D0884E219"
 				type: "xp"
 				xp: 20
 			}]
+			subtitle: "Portable succ."
 			tasks: [{
 				id: "339D26EDFBB54047"
 				item: "create:portable_fluid_interface"
@@ -977,6 +961,7 @@
 					xp: 10
 				}
 			]
+			subtitle: "Better andesite."
 			tasks: [{
 				id: "50746AB4A2C68EB6"
 				item: "create:brass_ingot"
@@ -988,13 +973,13 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: ["Glue that can hold everything together."]
 			id: "1F58AA51814C7568"
 			rewards: [{
 				id: "1442962CD02DE0C5"
 				type: "xp_levels"
 				xp_levels: 2
 			}]
+			subtitle: "Why is this sock sticky?"
 			tasks: [{
 				id: "1A9BC10CDDA9FCF2"
 				item: {
@@ -1011,10 +996,6 @@
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
-			description: [
-				"Belts can carry items or apply directional rotation across gaps."
-				"They are placed on shafts."
-			]
 			id: "13AEBC331F29BC3D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1022,8 +1003,8 @@
 				table_id: 7240401147977672573L
 				type: "random"
 			}]
+			subtitle: "Move your stuff around, and yourself!"
 			tasks: [{
-				count: 4L
 				id: "4D2A907287515990"
 				item: "create:belt_connector"
 				type: "item"
@@ -1033,13 +1014,13 @@
 		}
 		{
 			dependencies: ["3208AA2A5C5C32C9"]
-			description: [""]
 			id: "76CDFDF824583924"
 			rewards: [{
 				id: "58D858F0535B8089"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Like a press, but more rolly."
 			tasks: [{
 				id: "49563357D5F757E0"
 				item: "createaddition:rolling_mill"
@@ -1050,10 +1031,6 @@
 		}
 		{
 			dependencies: ["2D41B04C75FA02BC"]
-			description: [
-				"Iron sheets are created from the mechanical press or rolling mill."
-				"There are other types of sheets as well."
-			]
 			id: "3208AA2A5C5C32C9"
 			rewards: [
 				{
@@ -1068,8 +1045,8 @@
 					xp: 10
 				}
 			]
+			subtitle: "I need how many of these things!?"
 			tasks: [{
-				count: 8L
 				id: "4022067DB2E21AC9"
 				item: "create:iron_sheet"
 				type: "item"
@@ -1079,13 +1056,13 @@
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
-			description: ["A little rough"]
 			id: "0818D7CB870874A1"
 			rewards: [{
 				id: "41DA38767EDB33B3"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Rough around the edges."
 			tasks: [{
 				id: "0EEFA4ECC52EC20B"
 				item: {

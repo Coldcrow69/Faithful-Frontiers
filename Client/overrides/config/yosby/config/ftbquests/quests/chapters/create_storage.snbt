@@ -5,56 +5,6 @@
 	group: "2C410916624C86AD"
 	icon: "create:blaze_burner"
 	id: "0FD2810D01837A25"
-	images: [
-		{
-			height: 2.0d
-			image: "create:block/vault/vault_front_small"
-			rotation: 0.0d
-			width: 2.0d
-			x: 3.5d
-			y: -4.5d
-		}
-		{
-			height: 2.0d
-			image: "create:item/package/cardboard_particle"
-			rotation: 0.0d
-			width: 2.0d
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:item/leather"
-			rotation: 0.0d
-			width: 2.0d
-			x: 3.5d
-			y: -6.5d
-		}
-		{
-			height: 2.0d
-			image: "paradise_lost:block/lavender_wisteria_leaves"
-			rotation: 0.0d
-			width: 2.0d
-			x: 5.0d
-			y: -7.5d
-		}
-		{
-			height: 2.0d
-			image: "minecraft:item/iron_ingot"
-			rotation: 0.0d
-			width: 2.0d
-			x: 6.5d
-			y: -6.5d
-		}
-		{
-			height: 2.0d
-			image: "bakery:block/drawer_front"
-			rotation: 0.0d
-			width: 2.0d
-			x: 6.5d
-			y: -4.5d
-		}
-	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -135,7 +85,6 @@
 		}
 		{
 			dependencies: ["05E35BEE36040C93"]
-			description: ["Right Clicking a Stock Ticker with this block will link it to your Stock Network. It can then be placed on a Packager to send requests and pull items from inventories."]
 			id: "4578DC9F65C73612"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -155,7 +104,6 @@
 		}
 		{
 			dependencies: ["4578DC9F65C73612"]
-			description: ["The Packager can pull requested items out of attached inventories and compress them into packages for transportation."]
 			id: "2716B7EBB7FA4055"
 			rewards: [{
 				id: "4D6904BE9B5F1C14"
@@ -266,7 +214,6 @@
 		}
 		{
 			dependencies: ["6C8D7C4EC2662155"]
-			description: ["By right clicking with a wrench, you can ride Chain Conveyors!"]
 			id: "6BBC8AD936A74C6E"
 			rewards: [{
 				exclude_from_claim_all: true
