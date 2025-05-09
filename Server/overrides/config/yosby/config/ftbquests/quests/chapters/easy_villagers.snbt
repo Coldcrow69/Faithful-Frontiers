@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "easy_villagers"
+	group: "45BF2C62DB334C89"
+	icon: "easy_villagers:auto_trader"
+	id: "3EE42B3A75F24A21"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "03C5988CD46AC556"
+			rewards: [{
+				id: "6CF58D5AB933B902"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Approach a villager and press \"V\" to pick them up. Place them in an ethical containment unit."
+			tasks: [{
+				id: "6505DFAB6925F8EC"
+				title: "Easy Villagers"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03C5988CD46AC556"]
+			id: "48811D9121B06201"
+			rewards: [
+				{
+					count: 8
+					id: "7582CBCC3E226784"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0F2044C7B0315BE8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Place a villager and a workstation in a trader to ethically exploit them."
+			tasks: [{
+				id: "127D59D45BD11302"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03C5988CD46AC556"]
+			id: "57E2105C288ED2F3"
+			rewards: [{
+				id: "328CFC85F2912FEF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Breed your villagers by feeding them."
+			tasks: [{
+				id: "1DD3568BBFF409BA"
+				item: "easy_villagers:breeder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03C5988CD46AC556"]
+			id: "6048C91742D152BB"
+			rewards: [
+				{
+					id: "7BBD5E3BDB641FCF"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "5ED0C85895D2A449"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "A single block iron farm."
+			tasks: [{
+				id: "668B3E004C4C9D99"
+				item: "easy_villagers:iron_farm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48811D9121B06201"]
+			id: "19FA218632F6C3A1"
+			rewards: [{
+				id: "747834709F576895"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Automate your ethical trading solution."
+			tasks: [{
+				id: "32D59B18F1FD05F6"
+				item: "easy_villagers:auto_trader"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57E2105C288ED2F3"]
+			id: "7C41A98B6C586605"
+			rewards: [{
+				id: "49DF40F5254443D8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Grow your baby villagers into adults."
+			tasks: [{
+				id: "55D23E4A7F65F948"
+				item: "easy_villagers:incubator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19FA218632F6C3A1"]
+			id: "3E3BFB3149B400EB"
+			rewards: [{
+				id: "6EF07949B4B644D1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Convert villagers for better trade prices."
+			tasks: [{
+				id: "4018B4C464F937DF"
+				item: "easy_villagers:converter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Easy Villagers"
+}

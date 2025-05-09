@@ -1,0 +1,63 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botany_pots"
+	group: "45BF2C62DB334C89"
+	icon: "botanypots:terracotta_botany_pot"
+	id: "1D24D6B41BD2ADB4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "302E5E3FCF857529"
+			rewards: [
+				{
+					count: 16
+					id: "67B2BF687EEC9CAD"
+					item: "minecraft:farmland"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6BCD38C73EC4022A"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Botany pots automatically grow crops."
+			tasks: [{
+				id: "33E176F3EC8BCEBA"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["302E5E3FCF857529"]
+			id: "71E384A23A9F2031"
+			rewards: [
+				{
+					count: 16
+					id: "4F1FFF2E2BC9A964"
+					item: "minecraft:terracotta"
+					type: "item"
+				}
+				{
+					id: "588AA53D50051E64"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Hopper botany pots automatically grow a crop and deposit to the inventory below them."
+			tasks: [{
+				id: "5FD284FCA4DDCBEA"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Botany Pots"
+}

@@ -257,7 +257,7 @@
 			tasks: [{
 				icon: "smallships:oak_brigg"
 				id: "58C301F145FE5C6B"
-				structure: "minecraft:mineshaft"
+				structure: "betteroceanmonuments:ocean_monument"
 				title: "Find a Ocean Monument"
 				type: "structure"
 			}]
